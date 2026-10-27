@@ -1,6 +1,6 @@
 # Offline Dev Vault
 
-یک رجیستری محلی و قابل‌حمل برای توسعهٔ آفلاین پروژه‌های **Next.js، React، TypeScript، Node.js و دیتابیس**. این پروژه Verdaccio را به‌عنوان npm proxy/cache اجرا می‌کند و یک Manager اختصاصی روی آن می‌گذارد تا فهرست پکیج‌ها، بررسی نسخه‌های جدید، پیش‌دریافت وابستگی‌ها و زمان‌بندی خودکار را مدیریت کند. runtimeها با lockfile و نسخهٔ دقیق build می‌شوند؛ base image از Public ECR گرفته می‌شود تا به Docker Hub وابسته نباشد.
+یک رجیستری محلی و قابل‌حمل برای توسعهٔ آفلاین پروژه‌های **Next.js، React، TypeScript، Node.js و دیتابیس**. این پروژه Verdaccio را به‌عنوان npm proxy/cache اجرا می‌کند و یک Manager اختصاصی روی آن می‌گذارد تا فهرست پکیج‌ها، بررسی نسخه‌های جدید، پیش‌دریافت وابستگی‌ها و زمان‌بندی خودکار را مدیریت کند. runtimeها با lockfile build می‌شوند و از تصویر رسمی Node در Docker Hub استفاده می‌کنند.
 
 ## چه چیزی حل می‌شود؟
 
@@ -60,7 +60,7 @@ docker compose up -d --build
 - رابط Verdaccio: <http://localhost:4873>
 - تست سلامت: <http://localhost:7373/api/health>
 
-فهرست اولیه شامل **۳۳۸ مورد یکتا** است: ۲۴۷ مورد استخراج‌شده از پروژه‌های محلی و ۱۵۰ مورد منتخب React، TypeScript، Next.js، PostgreSQL، MongoDB، React Native، Expo و Kotlin که موارد تکراری آن‌ها ادغام شده‌اند. نتیجه ۳۱۷ پکیج npm و ۲۱ artifact از Maven/Kotlin است. نسخه‌های دقیق موجود در lockfileهای پروژه‌ها نیز در `requestedVersions` ثبت شده‌اند.
+فهرست اولیه شامل **۳۳۸ مورد یکتا** است: ۲۴۷ مورد استخراج‌شده از پروژه‌های محلی و ۱۵۰ مورد منتخب React، TypeScript، Next.js، PostgreSQL، MongoDB، React Native، Expo و Kotlin که موارد تکراری آن‌ها ادغام شده‌اند. نتیجه ۳۱۷ پکیج npm و ۲۱ artifact از Maven/Kotlin است. نسخه‌های دقیق موجود در lockfileهای پروژه‌ها نیز در `requestedVersions` ثبت شده‌اند. در این نسخه، بررسی نسخه و دریافت آفلاین فقط برای npm پیاده‌سازی شده است؛ موارد Maven/Kotlin صرفاً در کاتالوگ قابل نگه‌داری و گروه‌بندی‌اند و در عملیات Check/Sync با خطای روشن گزارش می‌شوند.
 
 در نصب اولیه، `downloadsEnabled` و تمام scheduleها خاموش‌اند؛ پس بالا آوردن سرویس یا بازکردن داشبورد چیزی دانلود نمی‌کند. دکمهٔ Check فقط metadata نسخه‌ها را می‌خواند و دکمهٔ Sync تنها پس از فعال‌کردن صریح دانلود کار می‌کند.
 

@@ -3,13 +3,17 @@ import assert from 'node:assert/strict';
 import { mkdtemp, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
-import { PACKAGE_NAME, isScheduleDue, readYaml, run, selectVersions } from '../src/lib.js';
+import { addCachedVersion, PACKAGE_NAME, isScheduleDue, readYaml, run, selectVersions } from '../src/lib.js';
 
 test('selectVersions keeps at least three stable versions newest first', () => {
   assert.deepEqual(selectVersions(['1.0.0', '2.0.0-beta.1', '1.2.0', '1.1.0', '0.9.0'], 2), ['1.2.0', '1.1.0', '1.0.0']);
 });
 test('selectVersions can include prereleases', () => {
   assert.equal(selectVersions(['1.0.0', '2.0.0-beta.1', '1.1.0', '0.9.0'], 3, true)[0], '2.0.0-beta.1');
+});
+test('cache progress records only the version that was actually prefetched', () => {
+  assert.deepEqual(addCachedVersion(['1.0.0'], '1.1.0'), ['1.0.0', '1.1.0']);
+  assert.deepEqual(addCachedVersion(undefined, '1.1.0'), ['1.1.0']);
 });
 test('package name validation rejects command-like input', () => {
   assert.ok(PACKAGE_NAME.test('@scope/pkg'));

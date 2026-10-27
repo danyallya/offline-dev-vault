@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import semver from 'semver';
 import {
-  PACKAGE_NAME, atomicJson, atomicYaml, directorySize, discoverVersions, isScheduleDue, prefetchTree,
+  PACKAGE_NAME, addCachedVersion, atomicJson, atomicYaml, directorySize, discoverVersions, isScheduleDue, prefetchTree,
   readJson, readYaml, selectVersions
 } from './lib.js';
 
@@ -116,7 +116,7 @@ async function syncPackage(item, job, config) {
     try {
       await prefetchTree(item.name, version, registry, timeoutMs, (line) => logJob(job, `${item.name}@${version}: ${line}`), activeAbortController?.signal);
       cached.add(version);
-      state.packages[ref] = { ...state.packages[ref], cachedVersions: [...new Set([...inspected.desired, ...cached])], status: 'syncing', lastSyncAt: stamp() };
+      state.packages[ref] = { ...state.packages[ref], cachedVersions: addCachedVersion([...cached], version), status: 'syncing', lastSyncAt: stamp() };
       await persistState();
     } catch (error) {
       if (job.cancelRequested || error.name === 'AbortError') {
@@ -154,12 +154,23 @@ async function runJob(job, selection) {
       refs = list.packageRefs;
     }
     const wanted = refs?.length ? new Set(refs) : null;
-    const items = config.packages.filter((item) => item.enabled !== false && item.ecosystem === 'npm' && (!wanted || wanted.has(packageRef(item)) || wanted.has(item.name)));
-    job.total = items.length;
-    if (!items.length) throw new Error('No enabled npm packages selected');
+    const selectedItems = config.packages.filter((item) => item.enabled !== false && (!wanted || wanted.has(packageRef(item)) || wanted.has(item.name)));
+    if (!selectedItems.length) throw new Error('No enabled packages selected');
+    const unsupportedItems = selectedItems.filter((item) => item.ecosystem !== 'npm');
+    const items = selectedItems.filter((item) => item.ecosystem === 'npm');
+    job.total = selectedItems.length;
+    for (const item of unsupportedItems) {
+      if (job.cancelRequested) throw Object.assign(new Error('Operation cancelled'), { name: 'AbortError' });
+      job.current += 1;
+      job.currentPackage = item.name;
+      const error = 'Maven/Kotlin is catalog-only; metadata checks and downloads currently support npm packages only.';
+      job.results.push({ ref: packageRef(item), name: item.name, ok: false, error });
+      logJob(job, `${item.name}: ${error}`);
+      await persistJobs();
+    }
     for (let index = 0; index < items.length; index++) {
       if (job.cancelRequested) throw Object.assign(new Error('Operation cancelled'), { name: 'AbortError' });
-      job.current = index + 1;
+      job.current = unsupportedItems.length + index + 1;
       job.currentPackage = items[index].name;
       if (job.mode === 'sync') await syncPackage(items[index], job, config);
       else await inspectPackage(items[index], job, config);
@@ -237,6 +248,18 @@ app.post('/api/packages', async (request, reply) => {
   config.packages.push({ ecosystem, name, category: String(category).slice(0, 40), keepVersions: Math.max(3, Number(keepVersions || config.settings.defaultKeepVersions)), enabled: Boolean(enabled), includePrerelease: Boolean(includePrerelease), sources: ['manual'], requestedVersions: [] });
   await atomicYaml(packagesFile, config);
   return reply.code(201).send({ ok: true });
+});
+app.patch('/api/packages/bulk', async (request, reply) => {
+  const body = request.body || {};
+  const refs = Array.isArray(body.refs) ? [...new Set(body.refs.filter((ref) => typeof ref === 'string'))] : [];
+  if (!refs.length || refs.length > 5000 || typeof body.enabled !== 'boolean') return reply.code(400).send({ error: 'Provide 1–5000 package refs and a boolean enabled value' });
+  const config = await loadConfig();
+  const byRef = new Map(config.packages.map((item) => [packageRef(item), item]));
+  const missing = refs.filter((ref) => !byRef.has(ref));
+  if (missing.length) return reply.code(404).send({ error: `Unknown package refs: ${missing.slice(0, 10).join(', ')}` });
+  for (const ref of refs) byRef.get(ref).enabled = body.enabled;
+  await atomicYaml(packagesFile, config);
+  return { ok: true, updated: refs.length, enabled: body.enabled };
 });
 app.patch('/api/packages/:ref', async (request, reply) => {
   const value = decodeURIComponent(request.params.ref);

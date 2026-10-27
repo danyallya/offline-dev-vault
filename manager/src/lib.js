@@ -15,9 +15,13 @@ export async function readYaml(path) {
 }
 
 export async function atomicYaml(path, value) {
-  const temp = `${path}.${process.pid}.tmp`;
-  await writeFile(temp, YAML.stringify(value), 'utf8');
-  await rename(temp, path);
+  const temp = `${path}.${process.pid}.${randomUUID()}.tmp`;
+  try {
+    await writeFile(temp, YAML.stringify(value), { encoding: 'utf8', flag: 'wx' });
+    await rename(temp, path);
+  } finally {
+    await rm(temp, { force: true });
+  }
 }
 
 export async function readJson(path, fallback) {
@@ -54,6 +58,10 @@ export function selectVersions(allVersions, count, includePrerelease = false) {
     .filter((version) => includePrerelease || !semver.prerelease(version))
     .sort(semver.rcompare);
   return valid.slice(0, Math.max(3, Number(count) || 3));
+}
+
+export function addCachedVersion(cachedVersions, version) {
+  return [...new Set([...(Array.isArray(cachedVersions) ? cachedVersions : []), version])];
 }
 
 export function isScheduleDue(schedule, currentDate, currentTime) {
