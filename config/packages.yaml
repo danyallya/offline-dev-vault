@@ -1,5 +1,5 @@
 settings:
-  downloadsEnabled: true
+  downloadsEnabled: false
   schedulerEnabled: false
   missedRunPolicy: skip
   defaultKeepVersions: 3
@@ -8,8 +8,8 @@ settings:
     time: 03:00
     mode: check
 lists:
-  - id: barez-pakhsh
-    name: پکیج‌های پروژه‌های BarezPakhsh
+  - id: project-packages
+    name: پکیج‌های پروژه‌های محلی
     packageRefs:
       - maven:com.android.tools.build:gradle
       - maven:com.facebook.fresco:animated-gif
@@ -786,13 +786,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:sms-forwarder
       - project:داراییها
@@ -804,13 +804,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:sms-forwarder
       - project:داراییها
@@ -821,13 +821,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:sms-forwarder
       - project:داراییها
@@ -838,13 +838,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:sms-forwarder
       - project:داراییها
@@ -863,13 +863,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:sms-forwarder
       - project:داراییها
@@ -880,13 +880,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:sms-forwarder
       - project:داراییها
@@ -897,8 +897,8 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
       - project:داراییها
     requestedVersions:
       - 0.72.0
@@ -908,13 +908,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:sms-forwarder
       - project:داراییها
@@ -926,7 +926,7 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocial
+      - project:project-007
     requestedVersions:
       - 4.4.2
     name: com.google.gms:google-services
@@ -943,13 +943,13 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:sms-forwarder
       - project:داراییها
     requestedVersions: []
@@ -967,8 +967,8 @@ packages:
     enabled: false
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
       - project:داراییها
       - popular-150
     requestedVersions:
@@ -1035,13 +1035,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
     requestedVersions:
@@ -1056,19 +1056,19 @@ packages:
     name: "@babel/core"
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^7.24.0
-      BarezPakhshCameraScan:
+      project-002:
         - ^7.20.0
-      BarezPakhshPOS:
+      project-003:
         - ^7.20.0
-      BarezPakhshPosMellat:
+      project-004:
         - ^7.20.0
-      BarezPakhshPosSaderat:
+      project-005:
         - ^7.20.0
-      BarezPakhshReffah:
+      project-006:
         - ^7.20.0
-      BarezPakhshSocial:
+      project-007:
         - ^7.20.0
       p4rt-mobile:
         - ^7.20.0
@@ -1163,7 +1163,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
     requestedVersions:
       - 9.13.0
@@ -1171,7 +1171,7 @@ packages:
     name: "@eslint/js"
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^9.13.0
       TradingApp:
         - ^9.9.0
@@ -1179,24 +1179,24 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshReffah
+      - project:project-006
     requestedVersions:
       - 3.2.3
     name: "@expo/metro-runtime"
     category: project
     projectSpecs:
-      BarezPakhshReffah:
+      project-006:
         - ~3.2.3
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:smartpay
     requestedVersions:
       - 14.0.4
@@ -1207,17 +1207,17 @@ packages:
     name: "@expo/vector-icons"
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^14.0.2
-      BarezPakhshPOS:
+      project-003:
         - ^14.0.0
-      BarezPakhshPosMellat:
+      project-004:
         - ^14.0.3
-      BarezPakhshPosSaderat:
+      project-005:
         - ^14.0.0
-      BarezPakhshReffah:
+      project-006:
         - ^14.0.0
-      BarezPakhshSocial:
+      project-007:
         - ^14.0.2
       smartpay:
         - ^14.0.1
@@ -1260,13 +1260,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocial
+      - project:project-007
     requestedVersions:
       - 2.2.8
     name: "@metrixorg/react-native-plugin"
     category: project
     projectSpecs:
-      BarezPakhshSocial:
+      project-007:
         - ^2.2.8
   - ecosystem: npm
     enabled: true
@@ -1474,13 +1474,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:smartpay
       - project:sms-forwarder
       - popular-150
@@ -1491,19 +1491,19 @@ packages:
     name: "@react-native-async-storage/async-storage"
     category: react-native
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - 1.23.1
-      BarezPakhshCameraScan:
+      project-002:
         - ^1.23.1
-      BarezPakhshPOS:
+      project-003:
         - 1.23.1
-      BarezPakhshPosMellat:
+      project-004:
         - 1.23.1
-      BarezPakhshPosSaderat:
+      project-005:
         - 1.23.1
-      BarezPakhshReffah:
+      project-006:
         - 1.23.1
-      BarezPakhshSocial:
+      project-007:
         - 1.23.1
       smartpay:
         - 1.21.0
@@ -1513,44 +1513,44 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
+      - project:project-001
     requestedVersions:
       - 0.5.17
     name: "@react-native-community/checkbox"
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^0.5.17
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
       - popular-150
     requestedVersions:
       - 13.6.9
     name: "@react-native-community/cli"
     category: react-native
     projectSpecs:
-      BarezPakhshPOS:
+      project-003:
         - ^13.6.9
-      BarezPakhshPosMellat:
+      project-004:
         - ^13.6.9
-      BarezPakhshPosSaderat:
+      project-005:
         - ^13.6.9
-      BarezPakhshReffah:
+      project-006:
         - ^13.6.9
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
       - popular-150
     requestedVersions:
       - 11.3.1
@@ -1559,44 +1559,44 @@ packages:
     name: "@react-native-community/netinfo"
     category: react-native
     projectSpecs:
-      BarezPakhshPOS:
+      project-003:
         - ^11.3.1
-      BarezPakhshPosMellat:
+      project-004:
         - ^11.3.1
-      BarezPakhshPosSaderat:
+      project-005:
         - ^11.3.1
-      BarezPakhshReffah:
+      project-006:
         - 11.3.1
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocial
+      - project:project-007
     requestedVersions:
       - 21.0.0
     name: "@react-native-firebase/app"
     category: project
     projectSpecs:
-      BarezPakhshSocial:
+      project-007:
         - ^21.0.0
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocial
+      - project:project-007
     requestedVersions:
       - 21.0.0
     name: "@react-native-firebase/messaging"
     category: project
     projectSpecs:
-      BarezPakhshSocial:
+      project-007:
         - ^21.0.0
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
       - project:p4rt-mobile
     requestedVersions:
       - 2.9.0
@@ -1604,9 +1604,9 @@ packages:
     name: "@react-native-picker/picker"
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^2.9.0
-      BarezPakhshCameraScan:
+      project-002:
         - ^2.9.0
       p4rt-mobile:
         - 2.6.1
@@ -1635,13 +1635,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
       - project:sms-forwarder
@@ -1654,19 +1654,19 @@ packages:
     name: "@react-navigation/native"
     category: react-native
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^6.1.17
-      BarezPakhshCameraScan:
+      project-002:
         - ^7.0.14
-      BarezPakhshPOS:
+      project-003:
         - ^6.1.17
-      BarezPakhshPosMellat:
+      project-004:
         - ^6.1.17
-      BarezPakhshPosSaderat:
+      project-005:
         - ^6.1.17
-      BarezPakhshReffah:
+      project-006:
         - ^6.1.17
-      BarezPakhshSocial:
+      project-007:
         - ^6.1.17
       p4rt-mobile:
         - ^6.1.10
@@ -1678,13 +1678,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
       - popular-150
@@ -1695,19 +1695,19 @@ packages:
     name: "@react-navigation/native-stack"
     category: react-native
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^6.9.26
-      BarezPakhshCameraScan:
+      project-002:
         - ^7.2.0
-      BarezPakhshPOS:
+      project-003:
         - ^6.9.26
-      BarezPakhshPosMellat:
+      project-004:
         - ^6.9.26
-      BarezPakhshPosSaderat:
+      project-005:
         - ^6.9.26
-      BarezPakhshReffah:
+      project-006:
         - ^6.9.26
-      BarezPakhshSocial:
+      project-007:
         - ^6.9.26
       p4rt-mobile:
         - ^6.9.18
@@ -2038,7 +2038,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:my-fullstack-app
       - project:my-next-login-app
       - project:next-auth-dashboard
@@ -2054,7 +2054,7 @@ packages:
     name: "@types/node"
     category: typescript
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^22.8.6
       my-fullstack-app:
         - ^20.19.2
@@ -2082,12 +2082,12 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
-      - project:BarezPakhshSocialWebApp
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
+      - project:project-008
       - project:my-fullstack-app
       - project:my-next-login-app
       - project:next-auth-dashboard
@@ -2107,17 +2107,17 @@ packages:
     name: "@types/react"
     category: typescript
     projectSpecs:
-      BarezPakhshPOS:
+      project-003:
         - ~18.2.79
-      BarezPakhshPosMellat:
+      project-004:
         - ~18.2.79
-      BarezPakhshPosSaderat:
+      project-005:
         - ~18.2.79
-      BarezPakhshReffah:
+      project-006:
         - ~18.2.79
-      BarezPakhshSocial:
+      project-007:
         - ^18.3.5
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^18.3.12
       my-fullstack-app:
         - ^19
@@ -2137,7 +2137,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:my-fullstack-app
       - project:my-next-login-app
       - project:next-auth-dashboard
@@ -2154,7 +2154,7 @@ packages:
     name: "@types/react-dom"
     category: typescript
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^18.3.1
       my-fullstack-app:
         - ^19
@@ -2313,7 +2313,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
     requestedVersions:
       - 4.3.3
@@ -2321,7 +2321,7 @@ packages:
     name: "@vitejs/plugin-react"
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^4.3.3
       TradingApp:
         - ^5.0.0
@@ -2356,14 +2356,14 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
-      - project:BarezPakhshSocialWebApp
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
+      - project:project-008
       - project:my-fullstack-app
       - project:p4rt-mobile
       - project:smartpay
@@ -2378,21 +2378,21 @@ packages:
     name: axios
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^1.6.8
-      BarezPakhshCameraScan:
+      project-002:
         - ^1.8.1
-      BarezPakhshPOS:
+      project-003:
         - ^1.6.8
-      BarezPakhshPosMellat:
+      project-004:
         - ^1.6.8
-      BarezPakhshPosSaderat:
+      project-005:
         - ^1.6.8
-      BarezPakhshReffah:
+      project-006:
         - ^1.6.8
-      BarezPakhshSocial:
+      project-007:
         - ^1.6.8
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^1.7.7
       my-fullstack-app:
         - ^1.10.0
@@ -2553,13 +2553,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
+      - project:project-001
     requestedVersions:
       - 5.0.0
     name: deprecated-react-native-prop-types
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^5.0.0
   - ecosystem: npm
     enabled: true
@@ -2611,7 +2611,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:my-fullstack-app
       - project:my-next-login-app
       - project:next-auth-dashboard
@@ -2629,7 +2629,7 @@ packages:
     name: eslint
     category: typescript
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^9.13.0
       my-fullstack-app:
         - ^9
@@ -2674,7 +2674,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
     requestedVersions:
       - 5.0.0
@@ -2682,7 +2682,7 @@ packages:
     name: eslint-plugin-react-hooks
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^5.0.0
       TradingApp:
         - ^5.2.0
@@ -2690,7 +2690,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
     requestedVersions:
       - 0.4.14
@@ -2698,7 +2698,7 @@ packages:
     name: eslint-plugin-react-refresh
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^0.4.14
       TradingApp:
         - ^0.4.9
@@ -2721,13 +2721,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
       - project:sms-forwarder
@@ -2744,19 +2744,19 @@ packages:
     name: expo
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^52.0.37
-      BarezPakhshCameraScan:
+      project-002:
         - ^52.0.36
-      BarezPakhshPOS:
+      project-003:
         - ~51.0.14
-      BarezPakhshPosMellat:
+      project-004:
         - ~51.0.28
-      BarezPakhshPosSaderat:
+      project-005:
         - ~51.0.14
-      BarezPakhshReffah:
+      project-006:
         - ~51.0.39
-      BarezPakhshSocial:
+      project-007:
         - ~51.0.28
       p4rt-mobile:
         - ~50.0.19
@@ -2768,13 +2768,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
+      - project:project-001
     requestedVersions:
       - 11.0.4
     name: expo-asset
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^11.0.1
   - ecosystem: npm
     enabled: true
@@ -2788,8 +2788,8 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
       - project:p4rt-mobile
       - popular-150
     requestedVersions:
@@ -2798,9 +2798,9 @@ packages:
     name: expo-av
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~15.0.2
-      BarezPakhshCameraScan:
+      project-002:
         - ^15.0.2
       p4rt-mobile:
         - ~13.10.6
@@ -2820,13 +2820,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshCameraScan
+      - project:project-002
     requestedVersions:
       - 13.0.1
     name: expo-barcode-scanner
     category: project
     projectSpecs:
-      BarezPakhshCameraScan:
+      project-002:
         - ^13.0.1
   - ecosystem: npm
     enabled: true
@@ -2840,17 +2840,17 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
       - popular-150
     requestedVersions:
       - 16.0.17
     name: expo-camera
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~16.0.17
-      BarezPakhshCameraScan:
+      project-002:
         - ^16.0.17
   - ecosystem: npm
     enabled: true
@@ -2908,20 +2908,20 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
+      - project:project-001
       - popular-150
     requestedVersions:
       - 18.0.11
     name: expo-file-system
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~18.0.11
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPosMellat
+      - project:project-004
       - project:p4rt-mobile
       - popular-150
     requestedVersions:
@@ -2930,7 +2930,7 @@ packages:
     name: expo-font
     category: expo
     projectSpecs:
-      BarezPakhshPosMellat:
+      project-004:
         - ~12.0.10
       p4rt-mobile:
         - ~11.10.3
@@ -2946,44 +2946,44 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
     requestedVersions:
       - 13.0.6
     name: expo-image-manipulator
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~13.0.6
-      BarezPakhshCameraScan:
+      project-002:
         - ^13.0.6
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
       - popular-150
     requestedVersions:
       - 16.0.6
     name: expo-image-picker
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~16.0.6
-      BarezPakhshCameraScan:
+      project-002:
         - ^16.0.6
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
+      - project:project-001
     requestedVersions:
       - 12.0.2
     name: expo-intent-launcher
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~12.0.2
   - ecosystem: npm
     enabled: true
@@ -3009,8 +3009,8 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
+      - project:project-001
+      - project:project-002
       - project:p4rt-mobile
       - popular-150
     requestedVersions:
@@ -3019,9 +3019,9 @@ packages:
     name: expo-location
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~18.0.7
-      BarezPakhshCameraScan:
+      project-002:
         - ^18.0.7
       p4rt-mobile:
         - ~16.5.5
@@ -3041,13 +3041,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
+      - project:project-001
     requestedVersions:
       - 7.0.5
     name: expo-network
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~7.0.5
   - ecosystem: npm
     enabled: true
@@ -3078,13 +3078,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - popular-150
     requestedVersions:
@@ -3095,19 +3095,19 @@ packages:
     name: expo-secure-store
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~14.0.1
-      BarezPakhshCameraScan:
+      project-002:
         - ^14.0.1
-      BarezPakhshPOS:
+      project-003:
         - ~13.0.1
-      BarezPakhshPosMellat:
+      project-004:
         - ~13.0.1
-      BarezPakhshPosSaderat:
+      project-005:
         - ~13.0.1
-      BarezPakhshReffah:
+      project-006:
         - ~13.0.1
-      BarezPakhshSocial:
+      project-007:
         - ~13.0.2
       p4rt-mobile:
         - ~12.8.1
@@ -3139,13 +3139,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
       - project:sms-forwarder
@@ -3158,19 +3158,19 @@ packages:
     name: expo-status-bar
     category: expo
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~2.0.1
-      BarezPakhshCameraScan:
+      project-002:
         - ~2.0.1
-      BarezPakhshPOS:
+      project-003:
         - ~1.12.1
-      BarezPakhshPosMellat:
+      project-004:
         - ~1.12.1
-      BarezPakhshPosSaderat:
+      project-005:
         - ~1.12.1
-      BarezPakhshReffah:
+      project-006:
         - ~1.12.1
-      BarezPakhshSocial:
+      project-007:
         - ~1.12.1
       p4rt-mobile:
         - ~1.11.1
@@ -3273,7 +3273,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
     requestedVersions:
       - 15.11.0
@@ -3281,7 +3281,7 @@ packages:
     name: globals
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^15.11.0
       TradingApp:
         - ^15.9.0
@@ -3365,8 +3365,8 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosSaderat
+      - project:project-003
+      - project:project-005
       - project:TradingApp
     requestedVersions:
       - 1.2.8
@@ -3374,9 +3374,9 @@ packages:
     name: jalaali-js
     category: project
     projectSpecs:
-      BarezPakhshPOS:
+      project-003:
         - ^1.2.8
-      BarezPakhshPosSaderat:
+      project-005:
         - ^1.2.7
       TradingApp:
         - ^1.2.8
@@ -3384,7 +3384,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:p4rt-mobile
       - project:TradingApp
     requestedVersions:
@@ -3392,7 +3392,7 @@ packages:
     name: jalali-moment
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^3.3.11
       p4rt-mobile:
         - ^3.3.11
@@ -3532,8 +3532,8 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPOS
-      - project:BarezPakhshReffah
+      - project:project-003
+      - project:project-006
       - project:p4rt-master
     requestedVersions:
       - 2.30.1
@@ -3541,9 +3541,9 @@ packages:
     name: moment
     category: project
     projectSpecs:
-      BarezPakhshPOS:
+      project-003:
         - ^2.30.1
-      BarezPakhshReffah:
+      project-006:
         - ^2.30.1
       p4rt-master:
         - ^2.29.4
@@ -3551,22 +3551,22 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshReffah
+      - project:project-001
+      - project:project-002
+      - project:project-004
+      - project:project-006
     requestedVersions:
       - 0.10.4
     name: moment-jalaali
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^0.10.1
-      BarezPakhshCameraScan:
+      project-002:
         - ^0.10.4
-      BarezPakhshPosMellat:
+      project-004:
         - ^0.10.4
-      BarezPakhshReffah:
+      project-006:
         - ^0.10.4
   - ecosystem: npm
     enabled: true
@@ -3980,26 +3980,26 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
+      - project:project-001
     requestedVersions:
       - 15.8.1
     name: prop-types
     category: project
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^15.8.1
   - ecosystem: npm
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
-      - project:BarezPakhshSocialWebApp
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
+      - project:project-008
       - project:my-fullstack-app
       - project:my-next-login-app
       - project:next-auth-dashboard
@@ -4018,21 +4018,21 @@ packages:
     name: react
     category: react
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^18.3.1
-      BarezPakhshCameraScan:
+      project-002:
         - 18.3.1
-      BarezPakhshPOS:
+      project-003:
         - 18.2.0
-      BarezPakhshPosMellat:
+      project-004:
         - 18.2.0
-      BarezPakhshPosSaderat:
+      project-005:
         - 18.2.0
-      BarezPakhshReffah:
+      project-006:
         - 18.2.0
-      BarezPakhshSocial:
+      project-007:
         - 18.2.0
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^18.3.1
       my-fullstack-app:
         - ^19.0.0
@@ -4095,8 +4095,8 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocialWebApp
+      - project:project-006
+      - project:project-008
       - project:my-fullstack-app
       - project:my-next-login-app
       - project:next-auth-dashboard
@@ -4112,9 +4112,9 @@ packages:
     name: react-dom
     category: react
     projectSpecs:
-      BarezPakhshReffah:
+      project-006:
         - 18.2.0
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^18.3.1
       my-fullstack-app:
         - ^19.0.0
@@ -4185,7 +4185,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:Opsa
       - project:TradingApp
       - popular-150
@@ -4195,7 +4195,7 @@ packages:
     name: react-icons
     category: react
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^5.3.0
       Opsa:
         - ^5.7.0
@@ -4232,13 +4232,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
       - project:sms-forwarder
@@ -4252,19 +4252,19 @@ packages:
     name: react-native
     category: react-native
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^0.76.7
-      BarezPakhshCameraScan:
+      project-002:
         - ^0.76.7
-      BarezPakhshPOS:
+      project-003:
         - 0.74.2
-      BarezPakhshPosMellat:
+      project-004:
         - 0.74.5
-      BarezPakhshPosSaderat:
+      project-005:
         - 0.74.2
-      BarezPakhshReffah:
+      project-006:
         - 0.74.5
-      BarezPakhshSocial:
+      project-007:
         - 0.74.5
       p4rt-mobile:
         - 0.73.6
@@ -4398,13 +4398,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshCameraScan
+      - project:project-002
     requestedVersions:
       - 0.0.0
     name: react-native-linking
     category: project
     projectSpecs:
-      BarezPakhshCameraScan:
+      project-002:
         - ^0.0.0
   - ecosystem: npm
     enabled: true
@@ -4551,13 +4551,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
       - project:sms-forwarder
@@ -4571,19 +4571,19 @@ packages:
     name: react-native-safe-area-context
     category: react-native
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ^4.12.0
-      BarezPakhshCameraScan:
+      project-002:
         - ^4.12.0
-      BarezPakhshPOS:
+      project-003:
         - 4.10.1
-      BarezPakhshPosMellat:
+      project-004:
         - 4.10.1
-      BarezPakhshPosSaderat:
+      project-005:
         - 4.10.1
-      BarezPakhshReffah:
+      project-006:
         - 4.10.5
-      BarezPakhshSocial:
+      project-007:
         - 4.10.5
       p4rt-mobile:
         - 4.8.2
@@ -4607,13 +4607,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshBARCODE
-      - project:BarezPakhshCameraScan
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
+      - project:project-001
+      - project:project-002
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
       - project:p4rt-mobile
       - project:smartpay
       - project:sms-forwarder
@@ -4626,19 +4626,19 @@ packages:
     name: react-native-screens
     category: react-native
     projectSpecs:
-      BarezPakhshBARCODE:
+      project-001:
         - ~4.4.0
-      BarezPakhshCameraScan:
+      project-002:
         - ^4.4.0
-      BarezPakhshPOS:
+      project-003:
         - 3.31.1
-      BarezPakhshPosMellat:
+      project-004:
         - 3.31.1
-      BarezPakhshPosSaderat:
+      project-005:
         - 3.31.1
-      BarezPakhshReffah:
+      project-006:
         - 3.31.1
-      BarezPakhshSocial:
+      project-007:
         - 3.31.1
       p4rt-mobile:
         - ~3.29.0
@@ -4764,13 +4764,13 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshReffah
+      - project:project-006
     requestedVersions:
       - 0.19.13
     name: react-native-web
     category: project
     projectSpecs:
-      BarezPakhshReffah:
+      project-006:
         - ~0.19.10
   - ecosystem: npm
     enabled: true
@@ -4826,7 +4826,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
       - popular-150
     requestedVersions:
@@ -4835,7 +4835,7 @@ packages:
     name: react-router-dom
     category: react
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^6.27.0
       TradingApp:
         - ^6.30.1
@@ -4979,7 +4979,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:p4rt-master
       - project:TradingApp
     requestedVersions:
@@ -4989,7 +4989,7 @@ packages:
     name: sass
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^1.80.5
       p4rt-master:
         - ^1.69.4
@@ -5233,12 +5233,12 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
-      - project:BarezPakhshSocial
-      - project:BarezPakhshSocialWebApp
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
+      - project:project-007
+      - project:project-008
       - project:my-fullstack-app
       - project:my-next-login-app
       - project:next-auth-dashboard
@@ -5257,17 +5257,17 @@ packages:
     name: typescript
     category: typescript
     projectSpecs:
-      BarezPakhshPOS:
+      project-003:
         - ~5.3.3
-      BarezPakhshPosMellat:
+      project-004:
         - ~5.3.3
-      BarezPakhshPosSaderat:
+      project-005:
         - ~5.3.3
-      BarezPakhshReffah:
+      project-006:
         - ~5.3.3
-      BarezPakhshSocial:
+      project-007:
         - ^5.6.2
-      BarezPakhshSocialWebApp:
+      project-008:
         - ~5.6.2
       my-fullstack-app:
         - ^5.8.3
@@ -5287,7 +5287,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
     requestedVersions:
       - 8.12.2
@@ -5295,7 +5295,7 @@ packages:
     name: typescript-eslint
     category: project
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^8.11.0
       TradingApp:
         - ^8.0.1
@@ -5315,10 +5315,10 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshPOS
-      - project:BarezPakhshPosMellat
-      - project:BarezPakhshPosSaderat
-      - project:BarezPakhshReffah
+      - project:project-003
+      - project:project-004
+      - project:project-005
+      - project:project-006
       - project:next-auth-dashboard
       - project:p4rt-master
     requestedVersions:
@@ -5328,13 +5328,13 @@ packages:
     name: uuid
     category: project
     projectSpecs:
-      BarezPakhshPOS:
+      project-003:
         - ^10.0.0
-      BarezPakhshPosMellat:
+      project-004:
         - ^10.0.0
-      BarezPakhshPosSaderat:
+      project-005:
         - ^10.0.0
-      BarezPakhshReffah:
+      project-006:
         - ^10.0.0
       next-auth-dashboard:
         - ^14.0.0
@@ -5360,7 +5360,7 @@ packages:
     enabled: true
     keepVersions: 3
     sources:
-      - project:BarezPakhshSocialWebApp
+      - project:project-008
       - project:TradingApp
       - popular-150
     requestedVersions:
@@ -5369,7 +5369,7 @@ packages:
     name: vite
     category: typescript
     projectSpecs:
-      BarezPakhshSocialWebApp:
+      project-008:
         - ^5.4.10
       TradingApp:
         - ^6.1.6

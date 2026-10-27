@@ -60,7 +60,7 @@ docker compose up -d --build
 - رابط Verdaccio: <http://localhost:4873>
 - تست سلامت: <http://localhost:7373/api/health>
 
-فهرست اولیه شامل **۳۳۸ مورد یکتا** است: ۲۴۷ مورد استخراج‌شده از پروژه‌های `BarezPakhsh` و ۱۵۰ مورد منتخب React، TypeScript، Next.js، PostgreSQL، MongoDB، React Native، Expo و Kotlin که موارد تکراری آن‌ها ادغام شده‌اند. نتیجه ۳۱۷ پکیج npm و ۲۱ artifact از Maven/Kotlin است. نسخه‌های دقیق موجود در lockfileهای پروژه‌ها نیز در `requestedVersions` ثبت شده‌اند.
+فهرست اولیه شامل **۳۳۸ مورد یکتا** است: ۲۴۷ مورد استخراج‌شده از پروژه‌های محلی و ۱۵۰ مورد منتخب React، TypeScript، Next.js، PostgreSQL، MongoDB، React Native، Expo و Kotlin که موارد تکراری آن‌ها ادغام شده‌اند. نتیجه ۳۱۷ پکیج npm و ۲۱ artifact از Maven/Kotlin است. نسخه‌های دقیق موجود در lockfileهای پروژه‌ها نیز در `requestedVersions` ثبت شده‌اند.
 
 در نصب اولیه، `downloadsEnabled` و تمام scheduleها خاموش‌اند؛ پس بالا آوردن سرویس یا بازکردن داشبورد چیزی دانلود نمی‌کند. دکمهٔ Check فقط metadata نسخه‌ها را می‌خواند و دکمهٔ Sync تنها پس از فعال‌کردن صریح دانلود کار می‌کند.
 
@@ -123,15 +123,15 @@ Invoke-RestMethod http://localhost:7373/api/jobs/JOB_ID/cancel `
 
 کنترل‌های نمایشی مانند باز/بسته‌کردن پنل، صفحهٔ بعد/قبل و فیلترها تأیید نمی‌خواهند؛ تمام دکمه‌های شروع عملیات، ذخیره، افزودن، حذف، فعال‌سازی و توقف تأیید می‌خواهند.
 
-### بازتولید کاتالوگ پروژه‌های BarezPakhsh
+### بازتولید کاتالوگ پروژه‌های محلی
 
 این عملیات فقط manifest و lockfileها را می‌خواند و هیچ پکیجی نصب نمی‌کند:
 
 ```powershell
-node tools/import-project-catalog.mjs "C:\Users\(RR)Surface Laptop 3\Desktop\BarezPakhsh"
+node tools/import-project-catalog.mjs "C:\path\to\projects"
 ```
 
-خروجی مستقل اسکن در `config/catalogs/barez-pakhsh.yaml` و فهرست ۱۵۰تایی در `config/catalogs/popular-150.yaml` قرار دارد. `config/packages.yaml` نسخهٔ ادغام‌شده و قابل‌استفادهٔ برنامه است.
+خروجی مستقل اسکن در `config/catalogs/project-packages.yaml` و فهرست ۱۵۰تایی در `config/catalogs/popular-150.yaml` قرار دارد. نام پوشه‌های منبع در خروجی با شناسه‌های عمومی جایگزین می‌شود. `config/packages.yaml` نسخهٔ ادغام‌شده و قابل‌استفادهٔ برنامه است.
 
 ## استفاده در پروژه‌ها
 

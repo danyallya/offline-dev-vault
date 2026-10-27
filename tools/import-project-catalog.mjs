@@ -10,8 +10,15 @@ const sourceRoot = process.argv[2];
 if (!sourceRoot) throw new Error('Usage: node tools/import-project-catalog.mjs <projects-root>');
 
 const ignored = new Set(['node_modules', '.next', 'dist', 'build', '.git', '.expo', 'coverage']);
+const projectAliases = new Map();
+function projectAlias(project) {
+  if (!projectAliases.has(project)) {
+    projectAliases.set(project, `project-${String(projectAliases.size + 1).padStart(3, '0')}`);
+  }
+  return projectAliases.get(project);
+}
 async function walk(dir, names, out = []) {
-  for (const entry of await readdir(dir, { withFileTypes: true })) {
+  for (const entry of (await readdir(dir, { withFileTypes: true })).sort((a, b) => a.name.localeCompare(b.name))) {
     if (entry.isDirectory() && ignored.has(entry.name)) continue;
     const path = join(dir, entry.name);
     if (entry.isDirectory()) await walk(path, names, out);
@@ -25,7 +32,7 @@ const manifests = await walk(sourceRoot, new Set(['package.json']));
 for (const path of manifests) {
   let json;
   try { json = JSON.parse(await readFile(path, 'utf8')); } catch { continue; }
-  const project = relative(sourceRoot, dirname(path)).split(/[\\/]/)[0] || basename(dirname(path));
+  const project = projectAlias(relative(sourceRoot, dirname(path)).split(/[\\/]/)[0] || basename(dirname(path)));
   for (const section of ['dependencies', 'devDependencies', 'peerDependencies', 'optionalDependencies']) {
     for (const [name, spec] of Object.entries(json[section] || {})) {
       const item = npmMap.get(name) || { ecosystem: 'npm', name, category: 'project', enabled: true, keepVersions: 3, sources: [], requestedVersions: [], projectSpecs: {} };
@@ -55,7 +62,7 @@ const gradleFiles = await walk(sourceRoot, new Set(['build.gradle', 'build.gradl
 const coordinatePattern = /(?:implementation|api|compileOnly|runtimeOnly|testImplementation|androidTestImplementation|classpath|ksp|annotationProcessor)\s*(?:\(|\s)\s*["']([^"']+:[^"']+)(?:["'])/g;
 for (const path of gradleFiles) {
   const raw = await readFile(path, 'utf8');
-  const project = relative(sourceRoot, path).split(/[\\/]/)[0];
+  const project = projectAlias(relative(sourceRoot, path).split(/[\\/]/)[0]);
   for (const match of raw.matchAll(coordinatePattern)) {
     const parts = match[1].split(':');
     if (parts.length < 2 || parts[0].includes('$')) continue;
@@ -69,8 +76,8 @@ for (const path of gradleFiles) {
 
 const catalogDir = join(repoRoot, 'config', 'catalogs');
 await mkdir(catalogDir, { recursive: true });
-const projectCatalog = { generatedAt: new Date().toISOString(), source: basename(sourceRoot), packages: [...npmMap.values(), ...mavenMap.values()].sort((a, b) => `${a.ecosystem}:${a.name}`.localeCompare(`${b.ecosystem}:${b.name}`)) };
-await writeFile(join(catalogDir, 'barez-pakhsh.yaml'), YAML.stringify(projectCatalog), 'utf8');
+const projectCatalog = { generatedAt: new Date().toISOString(), source: 'local-projects', packages: [...npmMap.values(), ...mavenMap.values()].sort((a, b) => `${a.ecosystem}:${a.name}`.localeCompare(`${b.ecosystem}:${b.name}`)) };
+await writeFile(join(catalogDir, 'project-packages.yaml'), YAML.stringify(projectCatalog), 'utf8');
 
 const popular = YAML.parse(await readFile(join(catalogDir, 'popular-150.yaml'), 'utf8'));
 if (popular.packages.length !== 150) throw new Error(`popular-150.yaml must contain exactly 150 entries, found ${popular.packages.length}`);
@@ -96,7 +103,7 @@ const config = {
     defaultSchedule: { everyDays: 1, time: '03:00', mode: 'check' }
   },
   lists: [
-    { id: 'barez-pakhsh', name: 'پکیج‌های پروژه‌های BarezPakhsh', packageRefs: projectRefs, schedule: { enabled: false, everyDays: 1, time: '03:00', mode: 'check', anchorDate: new Date().toISOString().slice(0, 10) } },
+    { id: 'project-packages', name: 'پکیج‌های پروژه‌های محلی', packageRefs: projectRefs, schedule: { enabled: false, everyDays: 1, time: '03:00', mode: 'check', anchorDate: new Date().toISOString().slice(0, 10) } },
     { id: 'popular-150', name: '۱۵۰ پکیج محبوب پیشنهادی', packageRefs: popularRefs, schedule: { enabled: false, everyDays: 7, time: '04:00', mode: 'check', anchorDate: new Date().toISOString().slice(0, 10) } },
     { id: 'all-npm', name: 'تمام پکیج‌های npm', packageRefs: allNpmRefs, schedule: { enabled: false, everyDays: 7, time: '03:30', mode: 'check', anchorDate: new Date().toISOString().slice(0, 10) } }
   ],
