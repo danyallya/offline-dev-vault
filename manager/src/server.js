@@ -153,8 +153,9 @@ async function runJob(job, selection) {
       if (!list) throw new Error('List not found');
       refs = list.packageRefs;
     }
+    const manualSelection = !selection.listId && Array.isArray(selection.refs) && selection.refs.length > 0;
     const wanted = refs?.length ? new Set(refs) : null;
-    const selectedItems = config.packages.filter((item) => item.enabled !== false && (!wanted || wanted.has(packageRef(item)) || wanted.has(item.name)));
+    const selectedItems = config.packages.filter((item) => (manualSelection || item.enabled !== false) && (!wanted || wanted.has(packageRef(item)) || wanted.has(item.name)));
     if (!selectedItems.length) throw new Error('No enabled packages selected');
     const unsupportedItems = selectedItems.filter((item) => item.ecosystem !== 'npm');
     const items = selectedItems.filter((item) => item.ecosystem === 'npm');

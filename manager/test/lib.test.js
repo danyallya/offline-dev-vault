@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+import { mkdtemp, readdir, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
-import { addCachedVersion, PACKAGE_NAME, isScheduleDue, readYaml, run, selectVersions } from '../src/lib.js';
+import { addCachedVersion, atomicJson, atomicYaml, PACKAGE_NAME, isScheduleDue, readJson, readYaml, run, selectVersions } from '../src/lib.js';
 
 test('selectVersions keeps at least three stable versions newest first', () => {
   assert.deepEqual(selectVersions(['1.0.0', '2.0.0-beta.1', '1.2.0', '1.1.0', '0.9.0'], 2), ['1.2.0', '1.1.0', '1.0.0']);
@@ -29,6 +29,19 @@ test('readYaml preserves settings and lists', async () => {
     const config = await readYaml(path);
     assert.equal(config.settings.downloadsEnabled, false);
     assert.equal(config.lists[0].id, 'demo');
+  } finally { await rm(dir, { recursive: true, force: true }); }
+});
+
+test('atomic config writes replace files cleanly and remove temporary files', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'vault-atomic-test-'));
+  const yamlPath = join(dir, 'config.yaml');
+  const jsonPath = join(dir, 'state.json');
+  try {
+    await atomicYaml(yamlPath, { settings: { downloadsEnabled: false }, packages: [] });
+    await atomicJson(jsonPath, { active: false });
+    assert.equal((await readYaml(yamlPath)).settings.downloadsEnabled, false);
+    assert.deepEqual(await readJson(jsonPath, {}), { active: false });
+    assert.deepEqual((await readdir(dir)).sort(), ['config.yaml', 'state.json']);
   } finally { await rm(dir, { recursive: true, force: true }); }
 });
 

@@ -33,9 +33,13 @@ export async function readJson(path, fallback) {
 
 export async function atomicJson(path, value) {
   await mkdir(dirname(path), { recursive: true });
-  const temp = `${path}.${process.pid}.tmp`;
-  await writeFile(temp, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
-  await rename(temp, path);
+  const temp = `${path}.${process.pid}.${randomUUID()}.tmp`;
+  try {
+    await writeFile(temp, `${JSON.stringify(value, null, 2)}\n`, { encoding: 'utf8', flag: 'wx' });
+    await rename(temp, path);
+  } finally {
+    await rm(temp, { force: true });
+  }
 }
 
 export async function directorySize(path) {
