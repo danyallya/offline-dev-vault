@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: |
+            manager/package-lock.json
+            registry/package-lock.json
+      - name: Test manager
+        working-directory: manager
+        run: npm ci && npm test
+      - name: Validate Compose
+        run: docker compose config --quiet
+      - name: Build images
+        run: docker compose build
+
