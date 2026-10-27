@@ -1,0 +1,168 @@
+# Curated starter catalog. Exactly 150 entries across the requested ecosystems/topics.
+# Maven entries are catalogued separately because Kotlin/Android does not use npm.
+packages:
+  # React (25)
+  - { ecosystem: npm, name: react, category: react }
+  - { ecosystem: npm, name: react-dom, category: react }
+  - { ecosystem: npm, name: react-router-dom, category: react }
+  - { ecosystem: npm, name: react-hook-form, category: react }
+  - { ecosystem: npm, name: '@tanstack/react-query', category: react }
+  - { ecosystem: npm, name: zustand, category: react }
+  - { ecosystem: npm, name: redux, category: react }
+  - { ecosystem: npm, name: '@reduxjs/toolkit', category: react }
+  - { ecosystem: npm, name: react-redux, category: react }
+  - { ecosystem: npm, name: jotai, category: react }
+  - { ecosystem: npm, name: recoil, category: react }
+  - { ecosystem: npm, name: valtio, category: react }
+  - { ecosystem: npm, name: framer-motion, category: react }
+  - { ecosystem: npm, name: react-icons, category: react }
+  - { ecosystem: npm, name: lucide-react, category: react }
+  - { ecosystem: npm, name: clsx, category: react }
+  - { ecosystem: npm, name: class-variance-authority, category: react }
+  - { ecosystem: npm, name: styled-components, category: react }
+  - { ecosystem: npm, name: '@emotion/react', category: react }
+  - { ecosystem: npm, name: '@emotion/styled', category: react }
+  - { ecosystem: npm, name: react-select, category: react }
+  - { ecosystem: npm, name: react-dropzone, category: react }
+  - { ecosystem: npm, name: react-toastify, category: react }
+  - { ecosystem: npm, name: sonner, category: react }
+  - { ecosystem: npm, name: recharts, category: react }
+
+  # TypeScript and tooling (20)
+  - { ecosystem: npm, name: typescript, category: typescript }
+  - { ecosystem: npm, name: tsx, category: typescript }
+  - { ecosystem: npm, name: ts-node, category: typescript }
+  - { ecosystem: npm, name: '@types/node', category: typescript }
+  - { ecosystem: npm, name: '@types/react', category: typescript }
+  - { ecosystem: npm, name: '@types/react-dom', category: typescript }
+  - { ecosystem: npm, name: zod, category: typescript }
+  - { ecosystem: npm, name: yup, category: typescript }
+  - { ecosystem: npm, name: valibot, category: typescript }
+  - { ecosystem: npm, name: io-ts, category: typescript }
+  - { ecosystem: npm, name: type-fest, category: typescript }
+  - { ecosystem: npm, name: ts-pattern, category: typescript }
+  - { ecosystem: npm, name: tsup, category: typescript }
+  - { ecosystem: npm, name: vite, category: typescript }
+  - { ecosystem: npm, name: vitest, category: typescript }
+  - { ecosystem: npm, name: eslint, category: typescript }
+  - { ecosystem: npm, name: prettier, category: typescript }
+  - { ecosystem: npm, name: '@typescript-eslint/parser', category: typescript }
+  - { ecosystem: npm, name: '@typescript-eslint/eslint-plugin', category: typescript }
+  - { ecosystem: npm, name: typedoc, category: typescript }
+
+  # Next.js (20)
+  - { ecosystem: npm, name: next, category: next }
+  - { ecosystem: npm, name: create-next-app, category: next }
+  - { ecosystem: npm, name: next-auth, category: next }
+  - { ecosystem: npm, name: '@auth/core', category: next }
+  - { ecosystem: npm, name: '@auth/prisma-adapter', category: next }
+  - { ecosystem: npm, name: next-themes, category: next }
+  - { ecosystem: npm, name: next-intl, category: next }
+  - { ecosystem: npm, name: next-sitemap, category: next }
+  - { ecosystem: npm, name: next-pwa, category: next }
+  - { ecosystem: npm, name: '@next/bundle-analyzer', category: next }
+  - { ecosystem: npm, name: next-safe-action, category: next }
+  - { ecosystem: npm, name: '@t3-oss/env-nextjs', category: next }
+  - { ecosystem: npm, name: server-only, category: next }
+  - { ecosystem: npm, name: sharp, category: next }
+  - { ecosystem: npm, name: next-mdx-remote, category: next }
+  - { ecosystem: npm, name: '@next/mdx', category: next }
+  - { ecosystem: npm, name: '@vercel/analytics', category: next }
+  - { ecosystem: npm, name: '@vercel/speed-insights', category: next }
+  - { ecosystem: npm, name: nuqs, category: next }
+  - { ecosystem: npm, name: next-seo, category: next }
+
+  # PostgreSQL (15)
+  - { ecosystem: npm, name: pg, category: postgres }
+  - { ecosystem: npm, name: postgres, category: postgres }
+  - { ecosystem: npm, name: '@prisma/client', category: postgres }
+  - { ecosystem: npm, name: prisma, category: postgres }
+  - { ecosystem: npm, name: drizzle-orm, category: postgres }
+  - { ecosystem: npm, name: '@neondatabase/serverless', category: postgres }
+  - { ecosystem: npm, name: kysely, category: postgres }
+  - { ecosystem: npm, name: knex, category: postgres }
+  - { ecosystem: npm, name: sequelize, category: postgres }
+  - { ecosystem: npm, name: typeorm, category: postgres }
+  - { ecosystem: npm, name: pg-promise, category: postgres }
+  - { ecosystem: npm, name: slonik, category: postgres }
+  - { ecosystem: npm, name: postgres-migrations, category: postgres }
+  - { ecosystem: npm, name: node-pg-migrate, category: postgres }
+  - { ecosystem: npm, name: '@electric-sql/pglite', category: postgres }
+
+  # MongoDB (15)
+  - { ecosystem: npm, name: mongodb, category: mongodb }
+  - { ecosystem: npm, name: mongoose, category: mongodb }
+  - { ecosystem: npm, name: bson, category: mongodb }
+  - { ecosystem: npm, name: connect-mongo, category: mongodb }
+  - { ecosystem: npm, name: mongodb-memory-server, category: mongodb }
+  - { ecosystem: npm, name: '@typegoose/typegoose', category: mongodb }
+  - { ecosystem: npm, name: '@nestjs/mongoose', category: mongodb }
+  - { ecosystem: npm, name: mongoose-paginate-v2, category: mongodb }
+  - { ecosystem: npm, name: mongoose-autopopulate, category: mongodb }
+  - { ecosystem: npm, name: mongoose-delete, category: mongodb }
+  - { ecosystem: npm, name: mongoose-lean-virtuals, category: mongodb }
+  - { ecosystem: npm, name: mongoose-aggregate-paginate-v2, category: mongodb }
+  - { ecosystem: npm, name: gridfs-stream, category: mongodb }
+  - { ecosystem: npm, name: migrate-mongo, category: mongodb }
+  - { ecosystem: npm, name: '@mongodb-js/zstd', category: mongodb }
+
+  # React Native (25)
+  - { ecosystem: npm, name: react-native, category: react-native }
+  - { ecosystem: npm, name: '@react-native-community/cli', category: react-native }
+  - { ecosystem: npm, name: '@react-navigation/native', category: react-native }
+  - { ecosystem: npm, name: '@react-navigation/native-stack', category: react-native }
+  - { ecosystem: npm, name: '@react-navigation/bottom-tabs', category: react-native }
+  - { ecosystem: npm, name: '@react-navigation/drawer', category: react-native }
+  - { ecosystem: npm, name: react-native-screens, category: react-native }
+  - { ecosystem: npm, name: react-native-safe-area-context, category: react-native }
+  - { ecosystem: npm, name: react-native-gesture-handler, category: react-native }
+  - { ecosystem: npm, name: react-native-reanimated, category: react-native }
+  - { ecosystem: npm, name: react-native-svg, category: react-native }
+  - { ecosystem: npm, name: react-native-webview, category: react-native }
+  - { ecosystem: npm, name: '@react-native-async-storage/async-storage', category: react-native }
+  - { ecosystem: npm, name: '@react-native-community/netinfo', category: react-native }
+  - { ecosystem: npm, name: react-native-device-info, category: react-native }
+  - { ecosystem: npm, name: react-native-permissions, category: react-native }
+  - { ecosystem: npm, name: react-native-keychain, category: react-native }
+  - { ecosystem: npm, name: react-native-image-picker, category: react-native }
+  - { ecosystem: npm, name: react-native-vector-icons, category: react-native }
+  - { ecosystem: npm, name: react-native-mmkv, category: react-native }
+  - { ecosystem: npm, name: react-native-maps, category: react-native }
+  - { ecosystem: npm, name: react-native-video, category: react-native }
+  - { ecosystem: npm, name: react-native-fs, category: react-native }
+  - { ecosystem: npm, name: react-native-share, category: react-native }
+  - { ecosystem: npm, name: react-native-localize, category: react-native }
+
+  # Expo (20)
+  - { ecosystem: npm, name: expo, category: expo }
+  - { ecosystem: npm, name: expo-router, category: expo }
+  - { ecosystem: npm, name: expo-constants, category: expo }
+  - { ecosystem: npm, name: expo-status-bar, category: expo }
+  - { ecosystem: npm, name: expo-splash-screen, category: expo }
+  - { ecosystem: npm, name: expo-font, category: expo }
+  - { ecosystem: npm, name: expo-image, category: expo }
+  - { ecosystem: npm, name: expo-image-picker, category: expo }
+  - { ecosystem: npm, name: expo-camera, category: expo }
+  - { ecosystem: npm, name: expo-location, category: expo }
+  - { ecosystem: npm, name: expo-file-system, category: expo }
+  - { ecosystem: npm, name: expo-secure-store, category: expo }
+  - { ecosystem: npm, name: expo-notifications, category: expo }
+  - { ecosystem: npm, name: expo-device, category: expo }
+  - { ecosystem: npm, name: expo-linking, category: expo }
+  - { ecosystem: npm, name: expo-auth-session, category: expo }
+  - { ecosystem: npm, name: expo-av, category: expo }
+  - { ecosystem: npm, name: expo-updates, category: expo }
+  - { ecosystem: npm, name: expo-build-properties, category: expo }
+  - { ecosystem: npm, name: eas-cli, category: expo }
+
+  # Kotlin / Android Maven coordinates (10)
+  - { ecosystem: maven, name: 'org.jetbrains.kotlin:kotlin-stdlib', category: kotlin }
+  - { ecosystem: maven, name: 'org.jetbrains.kotlin:kotlin-reflect', category: kotlin }
+  - { ecosystem: maven, name: 'org.jetbrains.kotlin:kotlin-test', category: kotlin }
+  - { ecosystem: maven, name: 'org.jetbrains.kotlinx:kotlinx-coroutines-core', category: kotlin }
+  - { ecosystem: maven, name: 'org.jetbrains.kotlinx:kotlinx-serialization-json', category: kotlin }
+  - { ecosystem: maven, name: 'androidx.core:core-ktx', category: kotlin }
+  - { ecosystem: maven, name: 'androidx.lifecycle:lifecycle-runtime-ktx', category: kotlin }
+  - { ecosystem: maven, name: 'androidx.activity:activity-compose', category: kotlin }
+  - { ecosystem: maven, name: 'androidx.compose.ui:ui', category: kotlin }
+  - { ecosystem: maven, name: 'com.squareup.retrofit2:retrofit', category: kotlin }
