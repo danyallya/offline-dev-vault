@@ -1,0 +1,5450 @@
+settings:
+  downloadsEnabled: true
+  schedulerEnabled: false
+  missedRunPolicy: skip
+  defaultKeepVersions: 3
+  defaultSchedule:
+    everyDays: 1
+    time: 03:00
+    mode: check
+lists:
+  - id: barez-pakhsh
+    name: پکیج‌های پروژه‌های BarezPakhsh
+    packageRefs:
+      - maven:com.android.tools.build:gradle
+      - maven:com.facebook.fresco:animated-gif
+      - maven:com.facebook.fresco:animated-webp
+      - maven:com.facebook.fresco:webpsupport
+      - maven:com.facebook.react:flipper-integration
+      - maven:com.facebook.react:hermes-android
+      - maven:com.facebook.react:react-android
+      - maven:com.facebook.react:react-native
+      - maven:com.facebook.react:react-native-gradle-plugin
+      - maven:com.google.gms:google-services
+      - maven:org.jetbrains.kotlin:kotlin-gradle-plugin
+      - maven:org.jetbrains.kotlin:kotlin-stdlib
+      - npm:@auth/prisma-adapter
+      - npm:@aws-sdk/client-s3
+      - npm:@babel/core
+      - npm:@babel/parser
+      - npm:@babel/traverse
+      - npm:@babel/types
+      - npm:@emotion/react
+      - npm:@emotion/styled
+      - npm:@eslint/eslintrc
+      - npm:@eslint/js
+      - npm:@expo/metro-runtime
+      - npm:@expo/vector-icons
+      - npm:@fontsource-variable/vazirmatn
+      - npm:@hookform/resolvers
+      - npm:@mapbox/polyline
+      - npm:@metrixorg/react-native-plugin
+      - npm:@mohamadkh75/react-native-jalali-datepicker
+      - npm:@mui/material
+      - npm:@mui/x-date-pickers
+      - npm:@neshan-maps-platform/leaflet
+      - npm:@next-auth/prisma-adapter
+      - npm:@nivo/bar
+      - npm:@nivo/line
+      - npm:@nivo/pie
+      - npm:@preact/signals
+      - npm:@prisma/adapter-pg
+      - npm:@prisma/client
+      - npm:@ramonak/react-progress-bar
+      - npm:@react-native-async-storage/async-storage
+      - npm:@react-native-community/checkbox
+      - npm:@react-native-community/cli
+      - npm:@react-native-community/netinfo
+      - npm:@react-native-firebase/app
+      - npm:@react-native-firebase/messaging
+      - npm:@react-native-picker/picker
+      - npm:@react-navigation/drawer
+      - npm:@react-navigation/native
+      - npm:@react-navigation/native-stack
+      - npm:@react-navigation/stack
+      - npm:@syncfusion/ej2-base
+      - npm:@syncfusion/ej2-data
+      - npm:@syncfusion/ej2-diagrams
+      - npm:@syncfusion/ej2-lists
+      - npm:@syncfusion/ej2-navigations
+      - npm:@syncfusion/ej2-react-base
+      - npm:@syncfusion/ej2-react-diagrams
+      - npm:@syncfusion/ej2-react-navigations
+      - npm:@tailwindcss/postcss
+      - npm:@tailwindcss/postcss7-compat
+      - npm:@tinymce/tinymce-react
+      - npm:@types/bcrypt
+      - npm:@types/bcryptjs
+      - npm:@types/cookie
+      - npm:@types/formidable
+      - npm:@types/jalaali-js
+      - npm:@types/jsonwebtoken
+      - npm:@types/kavenegar
+      - npm:@types/leaflet
+      - npm:@types/mapbox__polyline
+      - npm:@types/multer
+      - npm:@types/node
+      - npm:@types/pg
+      - npm:@types/react
+      - npm:@types/react-dom
+      - npm:@types/react-draft-wysiwyg
+      - npm:@types/react-lottie
+      - npm:@types/react-router-dom
+      - npm:@types/swagger-ui-react
+      - npm:@types/uuid
+      - npm:@types/web-push
+      - npm:@typescript-eslint/eslint-plugin
+      - npm:@typescript-eslint/parser
+      - npm:@upstash/ratelimit
+      - npm:@upstash/redis
+      - npm:@vitejs/plugin-react
+      - npm:animate.css
+      - npm:autoprefixer
+      - npm:axios
+      - npm:bcrypt
+      - npm:bcryptjs
+      - npm:chart.js
+      - npm:cookie
+      - npm:croner
+      - npm:date-fns
+      - npm:date-fns-jalali
+      - npm:deprecated-react-native-prop-types
+      - npm:dotenv
+      - npm:draft-js
+      - npm:eslint
+      - npm:eslint-config-next
+      - npm:eslint-plugin-react-hooks
+      - npm:eslint-plugin-react-refresh
+      - npm:exceljs
+      - npm:expo
+      - npm:expo-asset
+      - npm:expo-av
+      - npm:expo-background-fetch
+      - npm:expo-barcode-scanner
+      - npm:expo-camera
+      - npm:expo-checkbox
+      - npm:expo-contacts
+      - npm:expo-document-picker
+      - npm:expo-file-system
+      - npm:expo-font
+      - npm:expo-image-manipulator
+      - npm:expo-image-picker
+      - npm:expo-intent-launcher
+      - npm:expo-linear-gradient
+      - npm:expo-location
+      - npm:expo-modules-core
+      - npm:expo-network
+      - npm:expo-notifications
+      - npm:expo-secure-store
+      - npm:expo-sms
+      - npm:expo-status-bar
+      - npm:expo-system-ui
+      - npm:expo-task-manager
+      - npm:express
+      - npm:fast-check
+      - npm:file-type
+      - npm:formidable
+      - npm:framer-motion
+      - npm:globals
+      - npm:html-react-parser
+      - npm:html2canvas
+      - npm:i
+      - npm:immer
+      - npm:inngest
+      - npm:jalaali-js
+      - npm:jalali-moment
+      - npm:javascript-time-ago
+      - npm:jsonwebtoken
+      - npm:jwt-decode
+      - npm:kavenegar
+      - npm:leaflet
+      - npm:lottie-react
+      - npm:mockdate
+      - npm:moment
+      - npm:moment-jalaali
+      - npm:moment-timezone
+      - npm:mqtt
+      - npm:multer
+      - npm:nanoid
+      - npm:next
+      - npm:next-auth
+      - npm:next-connect
+      - npm:next-pwa
+      - npm:nextjs-google-analytics
+      - npm:nextjs-redirect
+      - npm:node-sass
+      - npm:npm
+      - npm:persian-date
+      - npm:pg
+      - npm:postcss
+      - npm:prettier
+      - npm:prisma
+      - npm:prop-types
+      - npm:react
+      - npm:react-alice-carousel
+      - npm:react-chartjs-2
+      - npm:react-date-object
+      - npm:react-dom
+      - npm:react-draft-wysiwyg
+      - npm:react-hook-form
+      - npm:react-hot-toast
+      - npm:react-icons
+      - npm:react-leaflet
+      - npm:react-multi-date-picker
+      - npm:react-native
+      - npm:react-native-animated-pagination-dot
+      - npm:react-native-background-fetch
+      - npm:react-native-chart-kit
+      - npm:react-native-collapsible
+      - npm:react-native-dropdownalert
+      - npm:react-native-fs
+      - npm:react-native-gesture-handler
+      - npm:react-native-jalali-date-picker
+      - npm:react-native-linking
+      - npm:react-native-modal
+      - npm:react-native-multiple-select
+      - npm:react-native-otp-inputs
+      - npm:react-native-otp-textinput
+      - npm:react-native-otp-verify
+      - npm:react-native-pager-view
+      - npm:react-native-reanimated
+      - npm:react-native-reanimated-carousel
+      - npm:react-native-render-html
+      - npm:react-native-safe-area-context
+      - npm:react-native-sass-transformer
+      - npm:react-native-screens
+      - npm:react-native-shadow-2
+      - npm:react-native-svg
+      - npm:react-native-swipe-list-view
+      - npm:react-native-tab-view
+      - npm:react-native-text-ticker
+      - npm:react-native-use-websocket
+      - npm:react-native-video
+      - npm:react-native-virtualized-view
+      - npm:react-native-web
+      - npm:react-native-webview
+      - npm:react-otp-input
+      - npm:react-parallax-tilt
+      - npm:react-redux
+      - npm:react-router-dom
+      - npm:react-select
+      - npm:react-super-responsive-table
+      - npm:react-tabs
+      - npm:react-time-ago
+      - npm:react-timer-hook
+      - npm:react-use-cart
+      - npm:recharts
+      - npm:rn-fetch-blob
+      - npm:rollup-plugin-visualizer
+      - npm:sass
+      - npm:sass-embedded
+      - npm:server-only
+      - npm:sharp
+      - npm:socket.io
+      - npm:socket.io-client
+      - npm:sonner
+      - npm:swagger-jsdoc
+      - npm:swagger-ui-react
+      - npm:swiper
+      - npm:tailwindcss
+      - npm:ts-node
+      - npm:tsx
+      - npm:typescript
+      - npm:typescript-eslint
+      - npm:update-browserslist-db
+      - npm:uuid
+      - npm:vite
+      - npm:web-push
+      - npm:wowjs
+      - npm:ws
+      - npm:zod
+    schedule:
+      enabled: false
+      everyDays: 1
+      time: 03:00
+      mode: check
+      anchorDate: 2026-08-27
+  - id: popular-150
+    name: ۱۵۰ پکیج محبوب پیشنهادی
+    packageRefs:
+      - npm:react
+      - npm:react-dom
+      - npm:react-router-dom
+      - npm:react-hook-form
+      - npm:@tanstack/react-query
+      - npm:zustand
+      - npm:redux
+      - npm:@reduxjs/toolkit
+      - npm:react-redux
+      - npm:jotai
+      - npm:recoil
+      - npm:valtio
+      - npm:framer-motion
+      - npm:react-icons
+      - npm:lucide-react
+      - npm:clsx
+      - npm:class-variance-authority
+      - npm:styled-components
+      - npm:@emotion/react
+      - npm:@emotion/styled
+      - npm:react-select
+      - npm:react-dropzone
+      - npm:react-toastify
+      - npm:sonner
+      - npm:recharts
+      - npm:typescript
+      - npm:tsx
+      - npm:ts-node
+      - npm:@types/node
+      - npm:@types/react
+      - npm:@types/react-dom
+      - npm:zod
+      - npm:yup
+      - npm:valibot
+      - npm:io-ts
+      - npm:type-fest
+      - npm:ts-pattern
+      - npm:tsup
+      - npm:vite
+      - npm:vitest
+      - npm:eslint
+      - npm:prettier
+      - npm:@typescript-eslint/parser
+      - npm:@typescript-eslint/eslint-plugin
+      - npm:typedoc
+      - npm:next
+      - npm:create-next-app
+      - npm:next-auth
+      - npm:@auth/core
+      - npm:@auth/prisma-adapter
+      - npm:next-themes
+      - npm:next-intl
+      - npm:next-sitemap
+      - npm:next-pwa
+      - npm:@next/bundle-analyzer
+      - npm:next-safe-action
+      - npm:@t3-oss/env-nextjs
+      - npm:server-only
+      - npm:sharp
+      - npm:next-mdx-remote
+      - npm:@next/mdx
+      - npm:@vercel/analytics
+      - npm:@vercel/speed-insights
+      - npm:nuqs
+      - npm:next-seo
+      - npm:pg
+      - npm:postgres
+      - npm:@prisma/client
+      - npm:prisma
+      - npm:drizzle-orm
+      - npm:@neondatabase/serverless
+      - npm:kysely
+      - npm:knex
+      - npm:sequelize
+      - npm:typeorm
+      - npm:pg-promise
+      - npm:slonik
+      - npm:postgres-migrations
+      - npm:node-pg-migrate
+      - npm:@electric-sql/pglite
+      - npm:mongodb
+      - npm:mongoose
+      - npm:bson
+      - npm:connect-mongo
+      - npm:mongodb-memory-server
+      - npm:@typegoose/typegoose
+      - npm:@nestjs/mongoose
+      - npm:mongoose-paginate-v2
+      - npm:mongoose-autopopulate
+      - npm:mongoose-delete
+      - npm:mongoose-lean-virtuals
+      - npm:mongoose-aggregate-paginate-v2
+      - npm:gridfs-stream
+      - npm:migrate-mongo
+      - npm:@mongodb-js/zstd
+      - npm:react-native
+      - npm:@react-native-community/cli
+      - npm:@react-navigation/native
+      - npm:@react-navigation/native-stack
+      - npm:@react-navigation/bottom-tabs
+      - npm:@react-navigation/drawer
+      - npm:react-native-screens
+      - npm:react-native-safe-area-context
+      - npm:react-native-gesture-handler
+      - npm:react-native-reanimated
+      - npm:react-native-svg
+      - npm:react-native-webview
+      - npm:@react-native-async-storage/async-storage
+      - npm:@react-native-community/netinfo
+      - npm:react-native-device-info
+      - npm:react-native-permissions
+      - npm:react-native-keychain
+      - npm:react-native-image-picker
+      - npm:react-native-vector-icons
+      - npm:react-native-mmkv
+      - npm:react-native-maps
+      - npm:react-native-video
+      - npm:react-native-fs
+      - npm:react-native-share
+      - npm:react-native-localize
+      - npm:expo
+      - npm:expo-router
+      - npm:expo-constants
+      - npm:expo-status-bar
+      - npm:expo-splash-screen
+      - npm:expo-font
+      - npm:expo-image
+      - npm:expo-image-picker
+      - npm:expo-camera
+      - npm:expo-location
+      - npm:expo-file-system
+      - npm:expo-secure-store
+      - npm:expo-notifications
+      - npm:expo-device
+      - npm:expo-linking
+      - npm:expo-auth-session
+      - npm:expo-av
+      - npm:expo-updates
+      - npm:expo-build-properties
+      - npm:eas-cli
+      - maven:org.jetbrains.kotlin:kotlin-stdlib
+      - maven:org.jetbrains.kotlin:kotlin-reflect
+      - maven:org.jetbrains.kotlin:kotlin-test
+      - maven:org.jetbrains.kotlinx:kotlinx-coroutines-core
+      - maven:org.jetbrains.kotlinx:kotlinx-serialization-json
+      - maven:androidx.core:core-ktx
+      - maven:androidx.lifecycle:lifecycle-runtime-ktx
+      - maven:androidx.activity:activity-compose
+      - maven:androidx.compose.ui:ui
+      - maven:com.squareup.retrofit2:retrofit
+    schedule:
+      enabled: false
+      everyDays: 7
+      time: 04:00
+      mode: check
+      anchorDate: 2026-08-27
+  - id: all-npm
+    name: تمام پکیج‌های npm
+    packageRefs:
+      - npm:@auth/prisma-adapter
+      - npm:@aws-sdk/client-s3
+      - npm:@babel/core
+      - npm:@babel/parser
+      - npm:@babel/traverse
+      - npm:@babel/types
+      - npm:@emotion/react
+      - npm:@emotion/styled
+      - npm:@eslint/eslintrc
+      - npm:@eslint/js
+      - npm:@expo/metro-runtime
+      - npm:@expo/vector-icons
+      - npm:@fontsource-variable/vazirmatn
+      - npm:@hookform/resolvers
+      - npm:@mapbox/polyline
+      - npm:@metrixorg/react-native-plugin
+      - npm:@mohamadkh75/react-native-jalali-datepicker
+      - npm:@mui/material
+      - npm:@mui/x-date-pickers
+      - npm:@neshan-maps-platform/leaflet
+      - npm:@next-auth/prisma-adapter
+      - npm:@nivo/bar
+      - npm:@nivo/line
+      - npm:@nivo/pie
+      - npm:@preact/signals
+      - npm:@prisma/adapter-pg
+      - npm:@prisma/client
+      - npm:@ramonak/react-progress-bar
+      - npm:@react-native-async-storage/async-storage
+      - npm:@react-native-community/checkbox
+      - npm:@react-native-community/cli
+      - npm:@react-native-community/netinfo
+      - npm:@react-native-firebase/app
+      - npm:@react-native-firebase/messaging
+      - npm:@react-native-picker/picker
+      - npm:@react-navigation/drawer
+      - npm:@react-navigation/native
+      - npm:@react-navigation/native-stack
+      - npm:@react-navigation/stack
+      - npm:@syncfusion/ej2-base
+      - npm:@syncfusion/ej2-data
+      - npm:@syncfusion/ej2-diagrams
+      - npm:@syncfusion/ej2-lists
+      - npm:@syncfusion/ej2-navigations
+      - npm:@syncfusion/ej2-react-base
+      - npm:@syncfusion/ej2-react-diagrams
+      - npm:@syncfusion/ej2-react-navigations
+      - npm:@tailwindcss/postcss
+      - npm:@tailwindcss/postcss7-compat
+      - npm:@tinymce/tinymce-react
+      - npm:@types/bcrypt
+      - npm:@types/bcryptjs
+      - npm:@types/cookie
+      - npm:@types/formidable
+      - npm:@types/jalaali-js
+      - npm:@types/jsonwebtoken
+      - npm:@types/kavenegar
+      - npm:@types/leaflet
+      - npm:@types/mapbox__polyline
+      - npm:@types/multer
+      - npm:@types/node
+      - npm:@types/pg
+      - npm:@types/react
+      - npm:@types/react-dom
+      - npm:@types/react-draft-wysiwyg
+      - npm:@types/react-lottie
+      - npm:@types/react-router-dom
+      - npm:@types/swagger-ui-react
+      - npm:@types/uuid
+      - npm:@types/web-push
+      - npm:@typescript-eslint/eslint-plugin
+      - npm:@typescript-eslint/parser
+      - npm:@upstash/ratelimit
+      - npm:@upstash/redis
+      - npm:@vitejs/plugin-react
+      - npm:animate.css
+      - npm:autoprefixer
+      - npm:axios
+      - npm:bcrypt
+      - npm:bcryptjs
+      - npm:chart.js
+      - npm:cookie
+      - npm:croner
+      - npm:date-fns
+      - npm:date-fns-jalali
+      - npm:deprecated-react-native-prop-types
+      - npm:dotenv
+      - npm:draft-js
+      - npm:eslint
+      - npm:eslint-config-next
+      - npm:eslint-plugin-react-hooks
+      - npm:eslint-plugin-react-refresh
+      - npm:exceljs
+      - npm:expo
+      - npm:expo-asset
+      - npm:expo-av
+      - npm:expo-background-fetch
+      - npm:expo-barcode-scanner
+      - npm:expo-camera
+      - npm:expo-checkbox
+      - npm:expo-contacts
+      - npm:expo-document-picker
+      - npm:expo-file-system
+      - npm:expo-font
+      - npm:expo-image-manipulator
+      - npm:expo-image-picker
+      - npm:expo-intent-launcher
+      - npm:expo-linear-gradient
+      - npm:expo-location
+      - npm:expo-modules-core
+      - npm:expo-network
+      - npm:expo-notifications
+      - npm:expo-secure-store
+      - npm:expo-sms
+      - npm:expo-status-bar
+      - npm:expo-system-ui
+      - npm:expo-task-manager
+      - npm:express
+      - npm:fast-check
+      - npm:file-type
+      - npm:formidable
+      - npm:framer-motion
+      - npm:globals
+      - npm:html-react-parser
+      - npm:html2canvas
+      - npm:i
+      - npm:immer
+      - npm:inngest
+      - npm:jalaali-js
+      - npm:jalali-moment
+      - npm:javascript-time-ago
+      - npm:jsonwebtoken
+      - npm:jwt-decode
+      - npm:kavenegar
+      - npm:leaflet
+      - npm:lottie-react
+      - npm:mockdate
+      - npm:moment
+      - npm:moment-jalaali
+      - npm:moment-timezone
+      - npm:mqtt
+      - npm:multer
+      - npm:nanoid
+      - npm:next
+      - npm:next-auth
+      - npm:next-connect
+      - npm:next-pwa
+      - npm:nextjs-google-analytics
+      - npm:nextjs-redirect
+      - npm:node-sass
+      - npm:npm
+      - npm:persian-date
+      - npm:pg
+      - npm:postcss
+      - npm:prettier
+      - npm:prisma
+      - npm:prop-types
+      - npm:react
+      - npm:react-alice-carousel
+      - npm:react-chartjs-2
+      - npm:react-date-object
+      - npm:react-dom
+      - npm:react-draft-wysiwyg
+      - npm:react-hook-form
+      - npm:react-hot-toast
+      - npm:react-icons
+      - npm:react-leaflet
+      - npm:react-multi-date-picker
+      - npm:react-native
+      - npm:react-native-animated-pagination-dot
+      - npm:react-native-background-fetch
+      - npm:react-native-chart-kit
+      - npm:react-native-collapsible
+      - npm:react-native-dropdownalert
+      - npm:react-native-fs
+      - npm:react-native-gesture-handler
+      - npm:react-native-jalali-date-picker
+      - npm:react-native-linking
+      - npm:react-native-modal
+      - npm:react-native-multiple-select
+      - npm:react-native-otp-inputs
+      - npm:react-native-otp-textinput
+      - npm:react-native-otp-verify
+      - npm:react-native-pager-view
+      - npm:react-native-reanimated
+      - npm:react-native-reanimated-carousel
+      - npm:react-native-render-html
+      - npm:react-native-safe-area-context
+      - npm:react-native-sass-transformer
+      - npm:react-native-screens
+      - npm:react-native-shadow-2
+      - npm:react-native-svg
+      - npm:react-native-swipe-list-view
+      - npm:react-native-tab-view
+      - npm:react-native-text-ticker
+      - npm:react-native-use-websocket
+      - npm:react-native-video
+      - npm:react-native-virtualized-view
+      - npm:react-native-web
+      - npm:react-native-webview
+      - npm:react-otp-input
+      - npm:react-parallax-tilt
+      - npm:react-redux
+      - npm:react-router-dom
+      - npm:react-select
+      - npm:react-super-responsive-table
+      - npm:react-tabs
+      - npm:react-time-ago
+      - npm:react-timer-hook
+      - npm:react-use-cart
+      - npm:recharts
+      - npm:rn-fetch-blob
+      - npm:rollup-plugin-visualizer
+      - npm:sass
+      - npm:sass-embedded
+      - npm:server-only
+      - npm:sharp
+      - npm:socket.io
+      - npm:socket.io-client
+      - npm:sonner
+      - npm:swagger-jsdoc
+      - npm:swagger-ui-react
+      - npm:swiper
+      - npm:tailwindcss
+      - npm:ts-node
+      - npm:tsx
+      - npm:typescript
+      - npm:typescript-eslint
+      - npm:update-browserslist-db
+      - npm:uuid
+      - npm:vite
+      - npm:web-push
+      - npm:wowjs
+      - npm:ws
+      - npm:zod
+      - npm:@tanstack/react-query
+      - npm:zustand
+      - npm:redux
+      - npm:@reduxjs/toolkit
+      - npm:jotai
+      - npm:recoil
+      - npm:valtio
+      - npm:lucide-react
+      - npm:clsx
+      - npm:class-variance-authority
+      - npm:styled-components
+      - npm:react-dropzone
+      - npm:react-toastify
+      - npm:yup
+      - npm:valibot
+      - npm:io-ts
+      - npm:type-fest
+      - npm:ts-pattern
+      - npm:tsup
+      - npm:vitest
+      - npm:typedoc
+      - npm:create-next-app
+      - npm:@auth/core
+      - npm:next-themes
+      - npm:next-intl
+      - npm:next-sitemap
+      - npm:@next/bundle-analyzer
+      - npm:next-safe-action
+      - npm:@t3-oss/env-nextjs
+      - npm:next-mdx-remote
+      - npm:@next/mdx
+      - npm:@vercel/analytics
+      - npm:@vercel/speed-insights
+      - npm:nuqs
+      - npm:next-seo
+      - npm:postgres
+      - npm:drizzle-orm
+      - npm:@neondatabase/serverless
+      - npm:kysely
+      - npm:knex
+      - npm:sequelize
+      - npm:typeorm
+      - npm:pg-promise
+      - npm:slonik
+      - npm:postgres-migrations
+      - npm:node-pg-migrate
+      - npm:@electric-sql/pglite
+      - npm:mongodb
+      - npm:mongoose
+      - npm:bson
+      - npm:connect-mongo
+      - npm:mongodb-memory-server
+      - npm:@typegoose/typegoose
+      - npm:@nestjs/mongoose
+      - npm:mongoose-paginate-v2
+      - npm:mongoose-autopopulate
+      - npm:mongoose-delete
+      - npm:mongoose-lean-virtuals
+      - npm:mongoose-aggregate-paginate-v2
+      - npm:gridfs-stream
+      - npm:migrate-mongo
+      - npm:@mongodb-js/zstd
+      - npm:@react-navigation/bottom-tabs
+      - npm:react-native-device-info
+      - npm:react-native-permissions
+      - npm:react-native-keychain
+      - npm:react-native-image-picker
+      - npm:react-native-vector-icons
+      - npm:react-native-mmkv
+      - npm:react-native-maps
+      - npm:react-native-share
+      - npm:react-native-localize
+      - npm:expo-router
+      - npm:expo-constants
+      - npm:expo-splash-screen
+      - npm:expo-image
+      - npm:expo-device
+      - npm:expo-linking
+      - npm:expo-auth-session
+      - npm:expo-updates
+      - npm:expo-build-properties
+      - npm:eas-cli
+    schedule:
+      enabled: false
+      everyDays: 7
+      time: 03:30
+      mode: check
+      anchorDate: 2026-08-27
+packages:
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: androidx.activity:activity-compose
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: androidx.compose.ui:ui
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: androidx.core:core-ktx
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: androidx.lifecycle:lifecycle-runtime-ktx
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions:
+      - 8.1.0
+    name: com.android.tools.build:gradle
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions: []
+    name: com.facebook.fresco:animated-gif
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions: []
+    name: com.facebook.fresco:animated-webp
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions: []
+    name: com.facebook.fresco:webpsupport
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions: []
+    name: com.facebook.react:flipper-integration
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions: []
+    name: com.facebook.react:hermes-android
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions: []
+    name: com.facebook.react:react-android
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:داراییها
+    requestedVersions:
+      - 0.72.0
+    name: com.facebook.react:react-native
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions:
+      - 0.72.0
+    name: com.facebook.react:react-native-gradle-plugin
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocial
+    requestedVersions:
+      - 4.4.2
+    name: com.google.gms:google-services
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: com.squareup.retrofit2:retrofit
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:sms-forwarder
+      - project:داراییها
+    requestedVersions: []
+    name: org.jetbrains.kotlin:kotlin-gradle-plugin
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: org.jetbrains.kotlin:kotlin-reflect
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:داراییها
+      - popular-150
+    requestedVersions:
+      - 1.8.0
+    name: org.jetbrains.kotlin:kotlin-stdlib
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: org.jetbrains.kotlin:kotlin-test
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: org.jetbrains.kotlinx:kotlinx-coroutines-core
+    category: kotlin
+  - ecosystem: maven
+    enabled: false
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: org.jetbrains.kotlinx:kotlinx-serialization-json
+    category: kotlin
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@auth/core"
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 1.0.9
+    name: "@auth/prisma-adapter"
+    category: next
+    projectSpecs:
+      p4rt-master:
+        - ^1.0.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: "@aws-sdk/client-s3"
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^3.1093.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+    requestedVersions:
+      - 7.26.9
+      - 7.26.0
+      - 7.24.7
+      - 7.28.5
+      - 7.25.2
+      - 7.25.8
+      - 7.24.4
+      - 7.24.5
+    name: "@babel/core"
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^7.24.0
+      BarezPakhshCameraScan:
+        - ^7.20.0
+      BarezPakhshPOS:
+        - ^7.20.0
+      BarezPakhshPosMellat:
+        - ^7.20.0
+      BarezPakhshPosSaderat:
+        - ^7.20.0
+      BarezPakhshReffah:
+        - ^7.20.0
+      BarezPakhshSocial:
+        - ^7.20.0
+      p4rt-mobile:
+        - ^7.20.0
+      smartpay:
+        - ^7.20.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 7.28.4
+    name: "@babel/parser"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^7.28.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 7.28.4
+    name: "@babel/traverse"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^7.28.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 7.28.4
+    name: "@babel/types"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^7.28.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@electric-sql/pglite"
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 11.11.1
+    name: "@emotion/react"
+    category: react
+    projectSpecs:
+      p4rt-master:
+        - ^11.11.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 11.11.0
+    name: "@emotion/styled"
+    category: react
+    projectSpecs:
+      p4rt-master:
+        - ^11.11.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+    requestedVersions:
+      - 3.3.1
+    name: "@eslint/eslintrc"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^3
+      my-next-login-app:
+        - ^3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+    requestedVersions:
+      - 9.13.0
+      - 9.33.0
+    name: "@eslint/js"
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^9.13.0
+      TradingApp:
+        - ^9.9.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshReffah
+    requestedVersions:
+      - 3.2.3
+    name: "@expo/metro-runtime"
+    category: project
+    projectSpecs:
+      BarezPakhshReffah:
+        - ~3.2.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:smartpay
+    requestedVersions:
+      - 14.0.4
+      - 14.0.2
+      - 14.1.0
+      - 14.0.3
+      - 14.0.1
+    name: "@expo/vector-icons"
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^14.0.2
+      BarezPakhshPOS:
+        - ^14.0.0
+      BarezPakhshPosMellat:
+        - ^14.0.3
+      BarezPakhshPosSaderat:
+        - ^14.0.0
+      BarezPakhshReffah:
+        - ^14.0.0
+      BarezPakhshSocial:
+        - ^14.0.2
+      smartpay:
+        - ^14.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: "@fontsource-variable/vazirmatn"
+    category: project
+    projectSpecs:
+      Opsa:
+        - 5.2.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+    requestedVersions:
+      - 5.1.1
+    name: "@hookform/resolvers"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^5.1.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.2.1
+    name: "@mapbox/polyline"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.2.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocial
+    requestedVersions:
+      - 2.2.8
+    name: "@metrixorg/react-native-plugin"
+    category: project
+    projectSpecs:
+      BarezPakhshSocial:
+        - ^2.2.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.1.1
+    name: "@mohamadkh75/react-native-jalali-datepicker"
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.1.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@mongodb-js/zstd"
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 5.14.20
+    name: "@mui/material"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^5.14.19
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 6.18.6
+    name: "@mui/x-date-pickers"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^6.18.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@neondatabase/serverless"
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+      - project:TradingApp
+    requestedVersions:
+      - 1.0.8
+    name: "@neshan-maps-platform/leaflet"
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^1.0.8
+      TradingApp:
+        - ^1.0.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@nestjs/mongoose"
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+    requestedVersions:
+      - 1.0.7
+    name: "@next-auth/prisma-adapter"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^1.0.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@next/bundle-analyzer"
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@next/mdx"
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 0.88.0
+    name: "@nivo/bar"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^0.88.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 0.88.0
+    name: "@nivo/line"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^0.88.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 0.88.0
+    name: "@nivo/pie"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^0.88.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.2.3
+    name: "@preact/signals"
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.2.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: "@prisma/adapter-pg"
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^7.9.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 6.11.0
+      - 6.11.1
+      - 7.8.0
+      - 5.7.1
+    name: "@prisma/client"
+    category: postgres
+    projectSpecs:
+      my-fullstack-app:
+        - ^6.11.0
+      my-next-login-app:
+        - ^6.11.1
+      next-auth-dashboard:
+        - ^7.8.0
+      Opsa:
+        - ^7.9.1
+      p4rt-master:
+        - ^5.7.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 5.1.1
+    name: "@ramonak/react-progress-bar"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^5.1.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:smartpay
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 1.23.1
+      - 1.21.0
+      - 2.2.0
+    name: "@react-native-async-storage/async-storage"
+    category: react-native
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - 1.23.1
+      BarezPakhshCameraScan:
+        - ^1.23.1
+      BarezPakhshPOS:
+        - 1.23.1
+      BarezPakhshPosMellat:
+        - 1.23.1
+      BarezPakhshPosSaderat:
+        - 1.23.1
+      BarezPakhshReffah:
+        - 1.23.1
+      BarezPakhshSocial:
+        - 1.23.1
+      smartpay:
+        - 1.21.0
+      sms-forwarder:
+        - 2.2.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+    requestedVersions:
+      - 0.5.17
+    name: "@react-native-community/checkbox"
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^0.5.17
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - popular-150
+    requestedVersions:
+      - 13.6.9
+    name: "@react-native-community/cli"
+    category: react-native
+    projectSpecs:
+      BarezPakhshPOS:
+        - ^13.6.9
+      BarezPakhshPosMellat:
+        - ^13.6.9
+      BarezPakhshPosSaderat:
+        - ^13.6.9
+      BarezPakhshReffah:
+        - ^13.6.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - popular-150
+    requestedVersions:
+      - 11.3.1
+      - 11.4.1
+      - 11.4.0
+    name: "@react-native-community/netinfo"
+    category: react-native
+    projectSpecs:
+      BarezPakhshPOS:
+        - ^11.3.1
+      BarezPakhshPosMellat:
+        - ^11.3.1
+      BarezPakhshPosSaderat:
+        - ^11.3.1
+      BarezPakhshReffah:
+        - 11.3.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocial
+    requestedVersions:
+      - 21.0.0
+    name: "@react-native-firebase/app"
+    category: project
+    projectSpecs:
+      BarezPakhshSocial:
+        - ^21.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocial
+    requestedVersions:
+      - 21.0.0
+    name: "@react-native-firebase/messaging"
+    category: project
+    projectSpecs:
+      BarezPakhshSocial:
+        - ^21.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:p4rt-mobile
+    requestedVersions:
+      - 2.9.0
+      - 2.6.1
+    name: "@react-native-picker/picker"
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^2.9.0
+      BarezPakhshCameraScan:
+        - ^2.9.0
+      p4rt-mobile:
+        - 2.6.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@react-navigation/bottom-tabs"
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 6.6.15
+    name: "@react-navigation/drawer"
+    category: react-native
+    projectSpecs:
+      p4rt-mobile:
+        - ^6.6.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 6.1.18
+      - 7.0.14
+      - 6.1.17
+      - 7.1.28
+    name: "@react-navigation/native"
+    category: react-native
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^6.1.17
+      BarezPakhshCameraScan:
+        - ^7.0.14
+      BarezPakhshPOS:
+        - ^6.1.17
+      BarezPakhshPosMellat:
+        - ^6.1.17
+      BarezPakhshPosSaderat:
+        - ^6.1.17
+      BarezPakhshReffah:
+        - ^6.1.17
+      BarezPakhshSocial:
+        - ^6.1.17
+      p4rt-mobile:
+        - ^6.1.10
+      smartpay:
+        - ^6.1.17
+      sms-forwarder:
+        - ^7.1.28
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+      - popular-150
+    requestedVersions:
+      - 6.11.0
+      - 7.2.0
+      - 6.9.26
+    name: "@react-navigation/native-stack"
+    category: react-native
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^6.9.26
+      BarezPakhshCameraScan:
+        - ^7.2.0
+      BarezPakhshPOS:
+        - ^6.9.26
+      BarezPakhshPosMellat:
+        - ^6.9.26
+      BarezPakhshPosSaderat:
+        - ^6.9.26
+      BarezPakhshReffah:
+        - ^6.9.26
+      BarezPakhshSocial:
+        - ^6.9.26
+      p4rt-mobile:
+        - ^6.9.18
+      smartpay:
+        - ^6.9.26
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:sms-forwarder
+    requestedVersions:
+      - 7.7.2
+    name: "@react-navigation/stack"
+    category: project
+    projectSpecs:
+      sms-forwarder:
+        - ^7.7.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@reduxjs/toolkit"
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.5
+    name: "@syncfusion/ej2-base"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.3
+    name: "@syncfusion/ej2-data"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.5
+    name: "@syncfusion/ej2-diagrams"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.4
+    name: "@syncfusion/ej2-lists"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.4
+    name: "@syncfusion/ej2-navigations"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.3
+    name: "@syncfusion/ej2-react-base"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.5
+    name: "@syncfusion/ej2-react-diagrams"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 24.2.4
+    name: "@syncfusion/ej2-react-navigations"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^24.2.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@t3-oss/env-nextjs"
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+    requestedVersions:
+      - 4.1.11
+      - 4.2.4
+    name: "@tailwindcss/postcss"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^4
+      my-next-login-app:
+        - ^4
+      next-auth-dashboard:
+        - ^4
+      Opsa:
+        - ^4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+    requestedVersions:
+      - 2.2.17
+    name: "@tailwindcss/postcss7-compat"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^2.2.17
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@tanstack/react-query"
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 4.3.2
+    name: "@tinymce/tinymce-react"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^4.3.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@typegoose/typegoose"
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:p4rt-master
+    requestedVersions:
+      - 5.0.2
+    name: "@types/bcrypt"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^5.0.2
+      my-next-login-app:
+        - ^5.0.2
+      p4rt-master:
+        - ^5.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:next-auth-dashboard
+      - project:p4rt-master
+    requestedVersions:
+      - 2.4.6
+    name: "@types/bcryptjs"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^2.4.6
+      next-auth-dashboard:
+        - ^2.4.6
+      p4rt-master:
+        - ^2.4.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+    requestedVersions:
+      - 0.6.0
+    name: "@types/cookie"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^0.6.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 3.4.5
+    name: "@types/formidable"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^3.4.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.1.3
+    name: "@types/jalaali-js"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.1.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+    requestedVersions:
+      - 9.0.10
+    name: "@types/jsonwebtoken"
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^9.0.10
+      my-next-login-app:
+        - ^9.0.10
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.1.3
+    name: "@types/kavenegar"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.1.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.9.12
+    name: "@types/leaflet"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.9.12
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.0.5
+    name: "@types/mapbox__polyline"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.0.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.4.11
+    name: "@types/multer"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.4.11
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 22.8.6
+      - 20.19.2
+      - 20.19.4
+      - 20.19.39
+      - 20.10.3
+    name: "@types/node"
+    category: typescript
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^22.8.6
+      my-fullstack-app:
+        - ^20.19.2
+      my-next-login-app:
+        - ^20
+      next-auth-dashboard:
+        - ^20
+      Opsa:
+        - ^20
+      p4rt-master:
+        - ^20
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+    requestedVersions:
+      - 8.20.0
+    name: "@types/pg"
+    category: project
+    projectSpecs:
+      next-auth-dashboard:
+        - ^8.20.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - project:p4rt-mobile
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 18.2.79
+      - 18.3.5
+      - 18.3.12
+      - 19.1.8
+      - 19.2.14
+      - 18.2.74
+      - 18.3.23
+    name: "@types/react"
+    category: typescript
+    projectSpecs:
+      BarezPakhshPOS:
+        - ~18.2.79
+      BarezPakhshPosMellat:
+        - ~18.2.79
+      BarezPakhshPosSaderat:
+        - ~18.2.79
+      BarezPakhshReffah:
+        - ~18.2.79
+      BarezPakhshSocial:
+        - ^18.3.5
+      BarezPakhshSocialWebApp:
+        - ^18.3.12
+      my-fullstack-app:
+        - ^19
+      my-next-login-app:
+        - ^19
+      next-auth-dashboard:
+        - ^19
+      Opsa:
+        - ^19
+      p4rt-master:
+        - ^18.2.74
+      p4rt-mobile:
+        - ~18.2.45
+      TradingApp:
+        - ^18.3.23
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 18.3.1
+      - 19.1.6
+      - 19.2.3
+      - 18.2.17
+      - 18.3.7
+    name: "@types/react-dom"
+    category: typescript
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^18.3.1
+      my-fullstack-app:
+        - ^19
+      my-next-login-app:
+        - ^19
+      next-auth-dashboard:
+        - ^19
+      Opsa:
+        - ^19
+      p4rt-master:
+        - ^18
+      TradingApp:
+        - ^18.3.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.13.7
+    name: "@types/react-draft-wysiwyg"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.13.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.2.10
+    name: "@types/react-lottie"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.2.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 5.3.3
+    name: "@types/react-router-dom"
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^5.3.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+    requestedVersions:
+      - 5.18.0
+    name: "@types/swagger-ui-react"
+    category: project
+    projectSpecs:
+      next-auth-dashboard:
+        - ^5.18.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+      - project:p4rt-master
+    requestedVersions:
+      - 10.0.0
+      - 9.0.7
+    name: "@types/uuid"
+    category: project
+    projectSpecs:
+      next-auth-dashboard:
+        - ^10.0.0
+      p4rt-master:
+        - ^9.0.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: "@types/web-push"
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^3.6.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 8.39.1
+    name: "@typescript-eslint/eslint-plugin"
+    category: typescript
+    projectSpecs:
+      TradingApp:
+        - ^8.39.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 8.39.1
+    name: "@typescript-eslint/parser"
+    category: typescript
+    projectSpecs:
+      TradingApp:
+        - ^8.39.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 0.4.4
+    name: "@upstash/ratelimit"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^0.4.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - v1.25.1
+    name: "@upstash/redis"
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.24.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@vercel/analytics"
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: "@vercel/speed-insights"
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+    requestedVersions:
+      - 4.3.3
+      - 5.0.0
+    name: "@vitejs/plugin-react"
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^4.3.3
+      TradingApp:
+        - ^5.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 4.1.1
+    name: animate.css
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^4.1.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:TradingApp
+    requestedVersions:
+      - 10.4.21
+    name: autoprefixer
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^10.4.21
+      TradingApp:
+        - ^10.4.21
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:TradingApp
+    requestedVersions:
+      - 1.8.1
+      - 1.7.2
+      - 1.13.2
+      - 1.7.7
+      - 1.10.0
+      - 1.6.8
+    name: axios
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^1.6.8
+      BarezPakhshCameraScan:
+        - ^1.8.1
+      BarezPakhshPOS:
+        - ^1.6.8
+      BarezPakhshPosMellat:
+        - ^1.6.8
+      BarezPakhshPosSaderat:
+        - ^1.6.8
+      BarezPakhshReffah:
+        - ^1.6.8
+      BarezPakhshSocial:
+        - ^1.6.8
+      BarezPakhshSocialWebApp:
+        - ^1.7.7
+      my-fullstack-app:
+        - ^1.10.0
+      p4rt-mobile:
+        - ^1.6.7
+      smartpay:
+        - ^1.6.8
+      TradingApp:
+        - ^1.13.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:p4rt-master
+    requestedVersions:
+      - 6.0.0
+      - 5.1.1
+    name: bcrypt
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^6.0.0
+      my-next-login-app:
+        - ^6.0.0
+      p4rt-master:
+        - ^5.1.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:next-auth-dashboard
+      - project:p4rt-master
+    requestedVersions:
+      - 3.0.2
+      - 3.0.3
+      - 2.4.3
+    name: bcryptjs
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^3.0.2
+      next-auth-dashboard:
+        - ^3.0.3
+      p4rt-master:
+        - ^2.4.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: bson
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+      - project:p4rt-master
+    requestedVersions:
+      - 4.5.1
+      - 4.4.1
+    name: chart.js
+    category: project
+    projectSpecs:
+      next-auth-dashboard:
+        - ^4.5.1
+      p4rt-master:
+        - ^4.4.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: class-variance-authority
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: clsx
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: connect-mongo
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+    requestedVersions:
+      - 1.0.2
+    name: cookie
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^1.0.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: create-next-app
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 8.0.1
+    name: croner
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^8.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 2.30.0
+    name: date-fns
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^2.30.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - project:p4rt-mobile
+    requestedVersions:
+      - 2.13.0-0
+      - 3.3.1-0
+    name: date-fns-jalali
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^2.13.0-0
+      p4rt-mobile:
+        - ^3.3.1-0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+    requestedVersions:
+      - 5.0.0
+    name: deprecated-react-native-prop-types
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^5.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+      - project:p4rt-master
+      - project:p4rt-mobile
+    requestedVersions:
+      - 16.4.5
+    name: dotenv
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^17.4.2
+      p4rt-master:
+        - ^16.4.5
+      p4rt-mobile:
+        - ^16.4.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 0.11.7
+    name: draft-js
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^0.11.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: drizzle-orm
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: eas-cli
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 9.13.0
+      - 9.30.0
+      - 9.30.1
+      - 9.39.4
+      - 8.55.0
+      - 9.33.0
+    name: eslint
+    category: typescript
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^9.13.0
+      my-fullstack-app:
+        - ^9
+      my-next-login-app:
+        - ^9
+      next-auth-dashboard:
+        - ^9
+      Opsa:
+        - ^9
+      p4rt-master:
+        - ^8
+      TradingApp:
+        - ^9.33.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+    requestedVersions:
+      - 15.3.1
+      - 15.3.5
+      - 16.2.4
+      - 13.5.6
+    name: eslint-config-next
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - 15.3.1
+      my-next-login-app:
+        - 15.3.5
+      next-auth-dashboard:
+        - 16.2.4
+      Opsa:
+        - 16.3.0
+      p4rt-master:
+        - 13.5.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+    requestedVersions:
+      - 5.0.0
+      - 5.2.0
+    name: eslint-plugin-react-hooks
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^5.0.0
+      TradingApp:
+        - ^5.2.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+    requestedVersions:
+      - 0.4.14
+      - 0.4.12
+    name: eslint-plugin-react-refresh
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^0.4.14
+      TradingApp:
+        - ^0.4.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - project:TradingApp
+    requestedVersions:
+      - 4.4.0
+    name: exceljs
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^4.4.0
+      TradingApp:
+        - ^4.4.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 52.0.37
+      - 52.0.36
+      - 51.0.14
+      - 51.0.39
+      - 51.0.32
+      - 50.0.19
+      - 50.0.17
+      - 54.0.33
+    name: expo
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^52.0.37
+      BarezPakhshCameraScan:
+        - ^52.0.36
+      BarezPakhshPOS:
+        - ~51.0.14
+      BarezPakhshPosMellat:
+        - ~51.0.28
+      BarezPakhshPosSaderat:
+        - ~51.0.14
+      BarezPakhshReffah:
+        - ~51.0.39
+      BarezPakhshSocial:
+        - ~51.0.28
+      p4rt-mobile:
+        - ~50.0.19
+      smartpay:
+        - ~50.0.17
+      sms-forwarder:
+        - ~54.0.33
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+    requestedVersions:
+      - 11.0.4
+    name: expo-asset
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^11.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-auth-session
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 15.0.2
+      - 13.10.6
+    name: expo-av
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~15.0.2
+      BarezPakhshCameraScan:
+        - ^15.0.2
+      p4rt-mobile:
+        - ~13.10.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:sms-forwarder
+    requestedVersions:
+      - 14.0.9
+    name: expo-background-fetch
+    category: project
+    projectSpecs:
+      sms-forwarder:
+        - ~14.0.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshCameraScan
+    requestedVersions:
+      - 13.0.1
+    name: expo-barcode-scanner
+    category: project
+    projectSpecs:
+      BarezPakhshCameraScan:
+        - ^13.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-build-properties
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - popular-150
+    requestedVersions:
+      - 16.0.17
+    name: expo-camera
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~16.0.17
+      BarezPakhshCameraScan:
+        - ^16.0.17
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 2.7.0
+    name: expo-checkbox
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ~2.7.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-constants
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:sms-forwarder
+    requestedVersions:
+      - 15.0.11
+    name: expo-contacts
+    category: project
+    projectSpecs:
+      sms-forwarder:
+        - ~15.0.11
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-device
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 11.10.1
+    name: expo-document-picker
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ~11.10.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - popular-150
+    requestedVersions:
+      - 18.0.11
+    name: expo-file-system
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~18.0.11
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPosMellat
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 12.0.10
+      - 11.10.3
+    name: expo-font
+    category: expo
+    projectSpecs:
+      BarezPakhshPosMellat:
+        - ~12.0.10
+      p4rt-mobile:
+        - ~11.10.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-image
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+    requestedVersions:
+      - 13.0.6
+    name: expo-image-manipulator
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~13.0.6
+      BarezPakhshCameraScan:
+        - ^13.0.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - popular-150
+    requestedVersions:
+      - 16.0.6
+    name: expo-image-picker
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~16.0.6
+      BarezPakhshCameraScan:
+        - ^16.0.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+    requestedVersions:
+      - 12.0.2
+    name: expo-intent-launcher
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~12.0.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 12.7.2
+    name: expo-linear-gradient
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ~12.7.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-linking
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 18.0.7
+      - 16.5.5
+    name: expo-location
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~18.0.7
+      BarezPakhshCameraScan:
+        - ^18.0.7
+      p4rt-mobile:
+        - ~16.5.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.11.13
+    name: expo-modules-core
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ~1.11.12
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+    requestedVersions:
+      - 7.0.5
+    name: expo-network
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~7.0.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 0.27.7
+      - 0.32.16
+    name: expo-notifications
+    category: expo
+    projectSpecs:
+      p4rt-mobile:
+        - ~0.27.7
+      sms-forwarder:
+        - ~0.32.16
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-router
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 14.0.1
+      - 13.0.1
+      - 13.0.2
+      - 12.8.1
+    name: expo-secure-store
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~14.0.1
+      BarezPakhshCameraScan:
+        - ^14.0.1
+      BarezPakhshPOS:
+        - ~13.0.1
+      BarezPakhshPosMellat:
+        - ~13.0.1
+      BarezPakhshPosSaderat:
+        - ~13.0.1
+      BarezPakhshReffah:
+        - ~13.0.1
+      BarezPakhshSocial:
+        - ~13.0.2
+      p4rt-mobile:
+        - ~12.8.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - project:sms-forwarder
+    requestedVersions:
+      - 11.7.1
+      - 14.0.8
+    name: expo-sms
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ~11.7.1
+      sms-forwarder:
+        - ~14.0.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-splash-screen
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 2.0.1
+      - 1.12.1
+      - 1.11.1
+      - 3.0.9
+    name: expo-status-bar
+    category: expo
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~2.0.1
+      BarezPakhshCameraScan:
+        - ~2.0.1
+      BarezPakhshPOS:
+        - ~1.12.1
+      BarezPakhshPosMellat:
+        - ~1.12.1
+      BarezPakhshPosSaderat:
+        - ~1.12.1
+      BarezPakhshReffah:
+        - ~1.12.1
+      BarezPakhshSocial:
+        - ~1.12.1
+      p4rt-mobile:
+        - ~1.11.1
+      smartpay:
+        - ~1.11.1
+      sms-forwarder:
+        - ~3.0.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 2.9.4
+    name: expo-system-ui
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ~2.9.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:sms-forwarder
+    requestedVersions:
+      - 14.0.9
+    name: expo-task-manager
+    category: project
+    projectSpecs:
+      sms-forwarder:
+        - ~14.0.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: expo-updates
+    category: expo
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 4.19.2
+    name: express
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^4.19.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: fast-check
+    category: project
+    projectSpecs:
+      Opsa:
+        - 3.23.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: file-type
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^22.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 3.5.1
+    name: formidable
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^3.5.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 10.16.14
+    name: framer-motion
+    category: react
+    projectSpecs:
+      p4rt-master:
+        - ^10.16.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+    requestedVersions:
+      - 15.11.0
+      - 15.10.0
+    name: globals
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^15.11.0
+      TradingApp:
+        - ^15.9.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: gridfs-stream
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 5.0.7
+    name: html-react-parser
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^5.0.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.4.1
+    name: html2canvas
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.4.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 0.3.7
+    name: i
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^0.3.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 10.0.4
+    name: immer
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^10.0.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 3.7.1
+    name: inngest
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^3.7.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: io-ts
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosSaderat
+      - project:TradingApp
+    requestedVersions:
+      - 1.2.8
+      - 1.2.7
+    name: jalaali-js
+    category: project
+    projectSpecs:
+      BarezPakhshPOS:
+        - ^1.2.8
+      BarezPakhshPosSaderat:
+        - ^1.2.7
+      TradingApp:
+        - ^1.2.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:p4rt-mobile
+      - project:TradingApp
+    requestedVersions:
+      - 3.3.11
+    name: jalali-moment
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^3.3.11
+      p4rt-mobile:
+        - ^3.3.11
+      TradingApp:
+        - ^3.3.11
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - project:p4rt-mobile
+    requestedVersions:
+      - 2.5.9
+    name: javascript-time-ago
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^2.5.9
+      p4rt-mobile:
+        - ^2.5.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: jotai
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+    requestedVersions:
+      - 9.0.2
+    name: jsonwebtoken
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^9.0.2
+      my-next-login-app:
+        - ^9.0.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+    requestedVersions:
+      - 4.0.0
+    name: jwt-decode
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^4.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.1.4
+    name: kavenegar
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.1.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: knex
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: kysely
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.9.4
+    name: leaflet
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.9.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 2.4.0
+    name: lottie-react
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^2.4.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: lucide-react
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: migrate-mongo
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 3.0.5
+    name: mockdate
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^3.0.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPOS
+      - project:BarezPakhshReffah
+      - project:p4rt-master
+    requestedVersions:
+      - 2.30.1
+      - 2.29.4
+    name: moment
+    category: project
+    projectSpecs:
+      BarezPakhshPOS:
+        - ^2.30.1
+      BarezPakhshReffah:
+        - ^2.30.1
+      p4rt-master:
+        - ^2.29.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshReffah
+    requestedVersions:
+      - 0.10.4
+    name: moment-jalaali
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^0.10.1
+      BarezPakhshCameraScan:
+        - ^0.10.4
+      BarezPakhshPosMellat:
+        - ^0.10.4
+      BarezPakhshReffah:
+        - ^0.10.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - project:p4rt-mobile
+    requestedVersions:
+      - 0.5.45
+    name: moment-timezone
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^0.5.45
+      p4rt-mobile:
+        - ^0.5.45
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongodb
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongodb-memory-server
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongoose
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongoose-aggregate-paginate-v2
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongoose-autopopulate
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongoose-delete
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongoose-lean-virtuals
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: mongoose-paginate-v2
+    category: mongodb
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 5.14.0
+    name: mqtt
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^5.14.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.4.5-lts.1
+    name: multer
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.4.5-lts.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 5.0.4
+    name: nanoid
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^5.0.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 15.3.1
+      - 15.3.5
+      - 16.2.4
+      - 14.0.3
+    name: next
+    category: next
+    projectSpecs:
+      my-fullstack-app:
+        - 15.3.1
+      my-next-login-app:
+        - 15.3.5
+      next-auth-dashboard:
+        - 16.2.4
+      Opsa:
+        - 16.3.0
+      p4rt-master:
+        - ^14.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:next-auth-dashboard
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 4.24.11
+      - 4.24.14
+      - 4.24.5
+    name: next-auth
+    category: next
+    projectSpecs:
+      my-fullstack-app:
+        - ^4.24.11
+      next-auth-dashboard:
+        - ^4.24.14
+      p4rt-master:
+        - ^4.24.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.0.0
+    name: next-connect
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: next-intl
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: next-mdx-remote
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 5.6.0
+    name: next-pwa
+    category: next
+    projectSpecs:
+      p4rt-master:
+        - ^5.6.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: next-safe-action
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: next-seo
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: next-sitemap
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: next-themes
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 2.3.3
+    name: nextjs-google-analytics
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^2.3.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 6.0.1
+    name: nextjs-redirect
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^6.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: node-pg-migrate
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 9.0.0
+    name: node-sass
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^9.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 10.5.1
+    name: npm
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^10.5.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: nuqs
+    category: next
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.1.0
+    name: persian-date
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.1.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+      - project:Opsa
+      - popular-150
+    requestedVersions:
+      - 8.20.0
+    name: pg
+    category: postgres
+    projectSpecs:
+      next-auth-dashboard:
+        - ^8.20.0
+      Opsa:
+        - ^8.22.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: pg-promise
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:TradingApp
+    requestedVersions:
+      - 8.5.6
+    name: postcss
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^8.5.6
+      TradingApp:
+        - ^8.4.47
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: postgres
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: postgres-migrations
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+      - popular-150
+    requestedVersions: []
+    name: prettier
+    category: typescript
+    projectSpecs:
+      Opsa:
+        - ^3.9.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 6.11.0
+      - 6.11.1
+      - 7.8.0
+      - 5.7.1
+    name: prisma
+    category: postgres
+    projectSpecs:
+      my-fullstack-app:
+        - ^6.11.0
+      my-next-login-app:
+        - ^6.11.1
+      next-auth-dashboard:
+        - ^7.8.0
+      Opsa:
+        - ^7.9.1
+      p4rt-master:
+        - ^5.7.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+    requestedVersions:
+      - 15.8.1
+    name: prop-types
+    category: project
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^15.8.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:sms-forwarder
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 18.3.1
+      - 18.2.0
+      - 19.1.0
+      - 19.2.4
+    name: react
+    category: react
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^18.3.1
+      BarezPakhshCameraScan:
+        - 18.3.1
+      BarezPakhshPOS:
+        - 18.2.0
+      BarezPakhshPosMellat:
+        - 18.2.0
+      BarezPakhshPosSaderat:
+        - 18.2.0
+      BarezPakhshReffah:
+        - 18.2.0
+      BarezPakhshSocial:
+        - 18.2.0
+      BarezPakhshSocialWebApp:
+        - ^18.3.1
+      my-fullstack-app:
+        - ^19.0.0
+      my-next-login-app:
+        - ^19.0.0
+      next-auth-dashboard:
+        - 19.2.4
+      Opsa:
+        - 19.2.4
+      p4rt-master:
+        - ^18
+      p4rt-mobile:
+        - 18.2.0
+      smartpay:
+        - 18.2.0
+      sms-forwarder:
+        - 19.1.0
+      TradingApp:
+        - ^18.3.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 2.8.0
+    name: react-alice-carousel
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^2.8.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+      - project:p4rt-master
+    requestedVersions:
+      - 5.3.1
+      - 5.2.0
+    name: react-chartjs-2
+    category: project
+    projectSpecs:
+      next-auth-dashboard:
+        - ^5.3.1
+      p4rt-master:
+        - ^5.2.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: react-date-object
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^2.1.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 18.2.0
+      - 18.3.1
+      - 19.1.0
+      - 19.2.4
+    name: react-dom
+    category: react
+    projectSpecs:
+      BarezPakhshReffah:
+        - 18.2.0
+      BarezPakhshSocialWebApp:
+        - ^18.3.1
+      my-fullstack-app:
+        - ^19.0.0
+      my-next-login-app:
+        - ^19.0.0
+      next-auth-dashboard:
+        - 19.2.4
+      Opsa:
+        - 19.2.4
+      p4rt-master:
+        - ^18
+      TradingApp:
+        - ^18.3.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.15.0
+    name: react-draft-wysiwyg
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.15.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-dropzone
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:p4rt-master
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 7.59.0
+      - 7.48.2
+      - 7.51.2
+    name: react-hook-form
+    category: react
+    projectSpecs:
+      my-fullstack-app:
+        - ^7.59.0
+      p4rt-master:
+        - ^7.47.0
+      p4rt-mobile:
+        - ^7.50.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 2.4.1
+    name: react-hot-toast
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^2.4.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:Opsa
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 5.3.0
+      - 5.5.0
+    name: react-icons
+    category: react
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^5.3.0
+      Opsa:
+        - ^5.7.0
+      TradingApp:
+        - ^5.5.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 4.2.1
+    name: react-leaflet
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^4.2.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+      - project:TradingApp
+    requestedVersions:
+      - 4.5.2
+    name: react-multi-date-picker
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^4.5.2
+      TradingApp:
+        - ^4.5.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 0.76.7
+      - 0.74.2
+      - 0.74.5
+      - 0.73.6
+      - 0.81.5
+    name: react-native
+    category: react-native
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^0.76.7
+      BarezPakhshCameraScan:
+        - ^0.76.7
+      BarezPakhshPOS:
+        - 0.74.2
+      BarezPakhshPosMellat:
+        - 0.74.5
+      BarezPakhshPosSaderat:
+        - 0.74.2
+      BarezPakhshReffah:
+        - 0.74.5
+      BarezPakhshSocial:
+        - 0.74.5
+      p4rt-mobile:
+        - 0.73.6
+      smartpay:
+        - 0.73.6
+      sms-forwarder:
+        - 0.81.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 0.4.0
+    name: react-native-animated-pagination-dot
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^0.4.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 4.2.4
+    name: react-native-background-fetch
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^4.2.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 6.12.0
+    name: react-native-chart-kit
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^6.12.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.6.1
+    name: react-native-collapsible
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.6.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-device-info
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 5.1.0
+    name: react-native-dropdownalert
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^5.1.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 2.20.0
+    name: react-native-fs
+    category: react-native
+    projectSpecs:
+      p4rt-mobile:
+        - ^2.20.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 2.14.1
+    name: react-native-gesture-handler
+    category: react-native
+    projectSpecs:
+      p4rt-mobile:
+        - ~2.14.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-image-picker
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.0.0
+    name: react-native-jalali-date-picker
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-keychain
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshCameraScan
+    requestedVersions:
+      - 0.0.0
+    name: react-native-linking
+    category: project
+    projectSpecs:
+      BarezPakhshCameraScan:
+        - ^0.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-localize
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-maps
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-mmkv
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 13.0.1
+    name: react-native-modal
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^13.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 0.5.12
+    name: react-native-multiple-select
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^0.5.12
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 7.4.0
+    name: react-native-otp-inputs
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^7.4.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.1.5
+    name: react-native-otp-textinput
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.1.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.1.8
+    name: react-native-otp-verify
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.1.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 6.2.3
+    name: react-native-pager-view
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - 6.2.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-permissions
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 3.6.3
+    name: react-native-reanimated
+    category: react-native
+    projectSpecs:
+      p4rt-mobile:
+        - ~3.6.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 3.5.1
+    name: react-native-reanimated-carousel
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^3.5.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 6.3.4
+    name: react-native-render-html
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^6.3.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 4.12.0
+      - 4.10.1
+      - 4.10.5
+      - 4.8.2
+      - 5.6.2
+    name: react-native-safe-area-context
+    category: react-native
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ^4.12.0
+      BarezPakhshCameraScan:
+        - ^4.12.0
+      BarezPakhshPOS:
+        - 4.10.1
+      BarezPakhshPosMellat:
+        - 4.10.1
+      BarezPakhshPosSaderat:
+        - 4.10.1
+      BarezPakhshReffah:
+        - 4.10.5
+      BarezPakhshSocial:
+        - 4.10.5
+      p4rt-mobile:
+        - 4.8.2
+      smartpay:
+        - ^4.10.1
+      sms-forwarder:
+        - ~5.6.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 2.1.1
+    name: react-native-sass-transformer
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^2.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshBARCODE
+      - project:BarezPakhshCameraScan
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:p4rt-mobile
+      - project:smartpay
+      - project:sms-forwarder
+      - popular-150
+    requestedVersions:
+      - 4.4.0
+      - 3.31.1
+      - 3.29.0
+      - 4.16.0
+    name: react-native-screens
+    category: react-native
+    projectSpecs:
+      BarezPakhshBARCODE:
+        - ~4.4.0
+      BarezPakhshCameraScan:
+        - ^4.4.0
+      BarezPakhshPOS:
+        - 3.31.1
+      BarezPakhshPosMellat:
+        - 3.31.1
+      BarezPakhshPosSaderat:
+        - 3.31.1
+      BarezPakhshReffah:
+        - 3.31.1
+      BarezPakhshSocial:
+        - 3.31.1
+      p4rt-mobile:
+        - ~3.29.0
+      smartpay:
+        - ~3.29.0
+      sms-forwarder:
+        - ~4.16.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 7.0.8
+    name: react-native-shadow-2
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^7.0.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-share
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 14.1.0
+    name: react-native-svg
+    category: react-native
+    projectSpecs:
+      p4rt-mobile:
+        - 14.1.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 3.2.9
+    name: react-native-swipe-list-view
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^3.2.9
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 3.5.2
+    name: react-native-tab-view
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^3.5.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.14.0
+    name: react-native-text-ticker
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.14.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 0.2.6
+    name: react-native-use-websocket
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^0.2.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-native-vector-icons
+    category: react-native
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 6.0.0
+    name: react-native-video
+    category: react-native
+    projectSpecs:
+      p4rt-mobile:
+        - ^6.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 1.0.0
+    name: react-native-virtualized-view
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^1.0.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshReffah
+    requestedVersions:
+      - 0.19.13
+    name: react-native-web
+    category: project
+    projectSpecs:
+      BarezPakhshReffah:
+        - ~0.19.10
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 13.6.4
+    name: react-native-webview
+    category: react-native
+    projectSpecs:
+      p4rt-mobile:
+        - 13.6.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 3.1.1
+    name: react-otp-input
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^3.1.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.7.175
+    name: react-parallax-tilt
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.7.172
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+      - popular-150
+    requestedVersions:
+      - 9.1.0
+    name: react-redux
+    category: react
+    projectSpecs:
+      p4rt-mobile:
+        - ^9.1.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 6.27.0
+      - 6.30.1
+    name: react-router-dom
+    category: react
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^6.27.0
+      TradingApp:
+        - ^6.30.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 5.8.0
+    name: react-select
+    category: react
+    projectSpecs:
+      p4rt-master:
+        - ^5.8.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 5.2.2
+    name: react-super-responsive-table
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^5.2.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 6.0.2
+    name: react-tabs
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^6.0.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 7.2.1
+    name: react-time-ago
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^7.2.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - project:p4rt-mobile
+    requestedVersions:
+      - 3.0.7
+    name: react-timer-hook
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^3.0.7
+      p4rt-mobile:
+        - ^3.0.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: react-toastify
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.13.0
+    name: react-use-cart
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.13.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+      - popular-150
+    requestedVersions: []
+    name: recharts
+    category: react
+    projectSpecs:
+      Opsa:
+        - 3.9.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: recoil
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: redux
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-mobile
+    requestedVersions:
+      - 0.12.0
+    name: rn-fetch-blob
+    category: project
+    projectSpecs:
+      p4rt-mobile:
+        - ^0.12.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 6.0.3
+    name: rollup-plugin-visualizer
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^6.0.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:p4rt-master
+      - project:TradingApp
+    requestedVersions:
+      - 1.80.5
+      - 1.69.5
+      - 1.90.0
+    name: sass
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^1.80.5
+      p4rt-master:
+        - ^1.69.4
+      TradingApp:
+        - ^1.90.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.90.0
+    name: sass-embedded
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.90.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: sequelize
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+      - popular-150
+    requestedVersions: []
+    name: server-only
+    category: next
+    projectSpecs:
+      Opsa:
+        - 0.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - popular-150
+    requestedVersions:
+      - 0.32.6
+    name: sharp
+    category: next
+    projectSpecs:
+      p4rt-master:
+        - ^0.32.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: slonik
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 4.7.5
+    name: socket.io
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^4.7.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+      - project:p4rt-mobile
+    requestedVersions:
+      - 4.7.5
+    name: socket.io-client
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^4.7.5
+      p4rt-mobile:
+        - ^4.7.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+      - popular-150
+    requestedVersions: []
+    name: sonner
+    category: react
+    projectSpecs:
+      Opsa:
+        - ^2.0.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: styled-components
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+    requestedVersions:
+      - 6.2.8
+    name: swagger-jsdoc
+    category: project
+    projectSpecs:
+      next-auth-dashboard:
+        - ^6.2.8
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:next-auth-dashboard
+    requestedVersions:
+      - 5.32.5
+    name: swagger-ui-react
+    category: project
+    projectSpecs:
+      next-auth-dashboard:
+        - ^5.32.5
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 11.0.5
+    name: swiper
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^11.0.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:TradingApp
+    requestedVersions:
+      - 4.1.11
+      - 4.2.4
+      - 3.4.17
+    name: tailwindcss
+    category: project
+    projectSpecs:
+      my-fullstack-app:
+        - ^4.1.11
+      my-next-login-app:
+        - ^4
+      next-auth-dashboard:
+        - ^4
+      Opsa:
+        - ^4
+      TradingApp:
+        - ^3.4.17
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - popular-150
+    requestedVersions:
+      - 10.9.2
+    name: ts-node
+    category: typescript
+    projectSpecs:
+      my-fullstack-app:
+        - ^10.9.2
+      my-next-login-app:
+        - ^10.9.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: ts-pattern
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: tsup
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-next-login-app
+      - project:Opsa
+      - popular-150
+    requestedVersions:
+      - 4.20.3
+    name: tsx
+    category: typescript
+    projectSpecs:
+      my-next-login-app:
+        - ^4.20.3
+      Opsa:
+        - ^4.22.4
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: type-fest
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: typedoc
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: typeorm
+    category: postgres
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:BarezPakhshSocial
+      - project:BarezPakhshSocialWebApp
+      - project:my-fullstack-app
+      - project:my-next-login-app
+      - project:next-auth-dashboard
+      - project:Opsa
+      - project:p4rt-master
+      - project:p4rt-mobile
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 5.3.3
+      - 5.6.2
+      - 5.6.3
+      - 5.8.3
+      - 5.9.3
+      - 5.4.4
+    name: typescript
+    category: typescript
+    projectSpecs:
+      BarezPakhshPOS:
+        - ~5.3.3
+      BarezPakhshPosMellat:
+        - ~5.3.3
+      BarezPakhshPosSaderat:
+        - ~5.3.3
+      BarezPakhshReffah:
+        - ~5.3.3
+      BarezPakhshSocial:
+        - ^5.6.2
+      BarezPakhshSocialWebApp:
+        - ~5.6.2
+      my-fullstack-app:
+        - ^5.8.3
+      my-next-login-app:
+        - ^5.8.3
+      next-auth-dashboard:
+        - ^5
+      Opsa:
+        - ^5
+      p4rt-master:
+        - ^5.4.4
+      p4rt-mobile:
+        - ^5.3.0
+      TradingApp:
+        - ^5.6.2
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+    requestedVersions:
+      - 8.12.2
+      - 8.8.0
+    name: typescript-eslint
+    category: project
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^8.11.0
+      TradingApp:
+        - ^8.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:TradingApp
+    requestedVersions:
+      - 1.1.3
+    name: update-browserslist-db
+    category: project
+    projectSpecs:
+      TradingApp:
+        - ^1.1.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshPOS
+      - project:BarezPakhshPosMellat
+      - project:BarezPakhshPosSaderat
+      - project:BarezPakhshReffah
+      - project:next-auth-dashboard
+      - project:p4rt-master
+    requestedVersions:
+      - 10.0.0
+      - 14.0.0
+      - 9.0.1
+    name: uuid
+    category: project
+    projectSpecs:
+      BarezPakhshPOS:
+        - ^10.0.0
+      BarezPakhshPosMellat:
+        - ^10.0.0
+      BarezPakhshPosSaderat:
+        - ^10.0.0
+      BarezPakhshReffah:
+        - ^10.0.0
+      next-auth-dashboard:
+        - ^14.0.0
+      p4rt-master:
+        - ^9.0.1
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: valibot
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: valtio
+    category: react
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:BarezPakhshSocialWebApp
+      - project:TradingApp
+      - popular-150
+    requestedVersions:
+      - 5.4.10
+      - 6.1.6
+    name: vite
+    category: typescript
+    projectSpecs:
+      BarezPakhshSocialWebApp:
+        - ^5.4.10
+      TradingApp:
+        - ^6.1.6
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: vitest
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:Opsa
+    requestedVersions: []
+    name: web-push
+    category: project
+    projectSpecs:
+      Opsa:
+        - ^3.6.7
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 1.1.3
+    name: wowjs
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^1.1.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:p4rt-master
+    requestedVersions:
+      - 8.16.0
+    name: ws
+    category: project
+    projectSpecs:
+      p4rt-master:
+        - ^8.16.0
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: yup
+    category: typescript
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - project:my-fullstack-app
+      - project:Opsa
+      - popular-150
+    requestedVersions:
+      - 3.25.67
+    name: zod
+    category: typescript
+    projectSpecs:
+      my-fullstack-app:
+        - ^3.25.67
+      Opsa:
+        - ^4.4.3
+  - ecosystem: npm
+    enabled: true
+    keepVersions: 3
+    sources:
+      - popular-150
+    requestedVersions: []
+    name: zustand
+    category: react

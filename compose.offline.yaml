@@ -1,0 +1,6 @@
+services:
+  registry:
+    volumes:
+      - registry-storage:/verdaccio/storage
+      - ./verdaccio/config.offline.yaml:/verdaccio/conf/config.yaml:ro
+

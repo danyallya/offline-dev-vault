@@ -1,0 +1,60 @@
+name: offline-dev-vault
+
+services:
+  registry:
+    build:
+      context: ./registry
+    restart: unless-stopped
+    environment:
+      VERDACCIO_PORT: 4873
+      TZ: ${TZ:-Asia/Tehran}
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${REGISTRY_PORT:-4873}:4873"
+    volumes:
+      - registry-storage:/verdaccio/storage
+      - ./verdaccio/config.yaml:/verdaccio/conf/config.yaml:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:4873/-/ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 15s
+    networks: [vault]
+
+  manager:
+    build:
+      context: ./manager
+    restart: unless-stopped
+    depends_on:
+      registry:
+        condition: service_healthy
+    environment:
+      PORT: 7373
+      TZ: ${TZ:-Asia/Tehran}
+      REGISTRY_URL: http://registry:4873
+      PUBLIC_REGISTRY_URL: http://localhost:${REGISTRY_PORT:-4873}
+      PACKAGES_FILE: /config/packages.yaml
+      DATA_DIR: /data
+      DEFAULT_KEEP_VERSIONS: ${DEFAULT_KEEP_VERSIONS:-3}
+      NPM_FETCH_TIMEOUT_MS: ${NPM_FETCH_TIMEOUT_MS:-120000}
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${DASHBOARD_PORT:-7373}:7373"
+    volumes:
+      - ./config:/config
+      - manager-data:/data
+      - registry-storage:/registry-storage:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:7373/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+    networks: [vault]
+
+networks:
+  vault:
+    driver: bridge
+
+volumes:
+  registry-storage:
+  manager-data:

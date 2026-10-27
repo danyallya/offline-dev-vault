@@ -1,0 +1,35 @@
+storage: /verdaccio/storage
+
+web:
+  enable: true
+  title: Offline Dev Vault Registry (OFFLINE)
+  darkMode: true
+  login: false
+  pkgManagers: [npm, pnpm, yarn]
+
+auth:
+  htpasswd:
+    file: /verdaccio/storage/htpasswd
+    max_users: -1
+
+# Deliberately no uplink and no proxy. Every response must come from local storage.
+uplinks: {}
+
+packages:
+  '@*/*':
+    access: $all
+    publish: $authenticated
+    unpublish: $authenticated
+  '**':
+    access: $all
+    publish: $authenticated
+    unpublish: $authenticated
+
+publish:
+  allow_offline: true
+
+middlewares:
+  audit:
+    enabled: true
+
+log: { type: stdout, format: pretty, level: http }
