@@ -4,6 +4,6 @@
   "private": true,
   "description": "Pinned Verdaccio runtime for Offline Dev Vault",
   "dependencies": {
-    "verdaccio": "6.10.1"
+    "verdaccio": "6.11.1"
   }
 }
